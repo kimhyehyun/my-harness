@@ -5,7 +5,7 @@
 ## 에이전트와 편집 폴더
 | 에이전트 | 스테이지 | 편집 가능 폴더 (1개) | Figma |
 |---|---|---|---|
-| ref-researcher | S1 | runs/{flow}/s1/ | 접근 안 함 (uibowl은 Chrome으로) |
+| ref-researcher | S1 | runs/{flow}/s1/ | 접근 안 함 (uibowl은 MCP로) |
 | screen-planner | S2 | runs/{flow}/s2/ | 접근 안 함 |
 | keyscreen-designer | S3 | runs/{flow}/s3/ | keyscreens 페이지만 씀 |
 | ui-designer | S4 | runs/{flow}/s4/ | {flow} 페이지만 씀. keyscreens 페이지는 읽기만 |

@@ -1,7 +1,7 @@
 # 실행 기록 — chrifit
 
 > Figma: ChriFit Design System (`EDcJ9a4nsLkEYJDmZPGi80`) · 페이지 `03 Harness` (`35:2`)
-> 규칙: docs/design.md · harness/rules.json
+> 규칙: docs/design.md · harness/rules.json · 판정 기준: docs/story-service.md (ChriFit)
 
 ## S3 키스크린
 | 파일 | Figma 노드 |
@@ -22,6 +22,8 @@
 
 ## S5 검토
 `s5/report.json` — 1회차 위반 1건(Sheet Header radius 20) → 인스턴스를 `3xl`로 덮어써 0건.
+
+판정 기준을 ChriFit PRD로 바꾼 뒤(★G5-10 이미지 출처) 운동 이미지 노드 6개에 `source=fitnessprogramer`를 레이어 이름으로 달았다.
 
 ## 사람 피드백으로 바뀐 것
 1. 운동 이름: 임의 예시 → fitnessprogramer.com Chest 목록(덤벨 풀오버 등)

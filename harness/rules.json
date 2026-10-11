@@ -1,5 +1,5 @@
 {
-  "_source": "docs/design.md(ChriFit, Figma 변수 기준), docs/prd.md. 둘이 다르면 원본 문서가 이긴다.",
+  "_source": "docs/design.md(ChriFit 디자인), docs/prd.md(ChriFit 서비스). 둘과 다르면 원본 문서가 이긴다.",
   "figma": {
     "fileKey": "EDcJ9a4nsLkEYJDmZPGi80",
     "file": "ChriFit Design System",
@@ -153,20 +153,35 @@
     "Mark/Bloom"
   ],
   "flows": [
-    "free-browse",
-    "paid-library",
-    "skill-card",
-    "mission-submit",
-    "asset-register",
-    "sale-request",
-    "admin-review"
+    "pick-today",
+    "find-exercise",
+    "do-session",
+    "finish-workout",
+    "review-history"
   ],
+  "flow_stories": {
+    "pick-today": [
+      1
+    ],
+    "find-exercise": [
+      2
+    ],
+    "do-session": [
+      3
+    ],
+    "finish-workout": [
+      4
+    ],
+    "review-history": [
+      5
+    ]
+  },
   "refs": {
     "types": [
-      "학습 콘텐츠 목록",
-      "자료실/다운로드",
-      "미션 제출",
-      "내 자산/판매 상태"
+      "운동 선택/홈",
+      "운동 목록/검색",
+      "운동 진행/체크",
+      "운동 기록/통계"
     ],
     "per_type": [
       3,
@@ -185,42 +200,52 @@
       5
     ]
   },
-  "phase2_forbidden": [
-    "허들링 픽",
-    "구매",
+  "out_of_scope": [
+    "로그인",
+    "회원가입",
     "결제",
-    "정산",
-    "판매 수익",
-    "판매 중",
-    "판매 중지",
-    "리뷰",
-    "평점",
-    "커뮤니티 피드",
-    "채팅"
+    "구독",
+    "커뮤니티",
+    "피드",
+    "채팅",
+    "랭킹",
+    "태블릿",
+    "라이트 테마"
   ],
-  "asset_status": {
+  "exercise_status": {
     "allowed": [
-      "임시저장",
-      "검수 대기",
-      "수정 요청",
-      "승인됨",
-      "반려"
+      "미완료",
+      "완료"
     ],
-    "forbidden": [
-      "판매 중",
-      "판매 중지"
-    ]
+    "complete_trigger": "사용자 체크",
+    "auto_complete_forbidden": [
+      "자동 완료",
+      "자동으로 완료",
+      "시간이 지나면 완료",
+      "타이머 종료 시 완료",
+      "자동 체크"
+    ],
+    "undo_required_any": [
+      "체크 해제",
+      "체크 전부 지우기",
+      "잘못 누른 체크"
+    ],
+    "finish_trigger": "오늘 운동 마치기"
   },
-  "sale_checklist": [
-    "실제 업무에 써본 것",
-    "결과 예시가 있는 것",
-    "사용 방법이 명확한 것",
-    "초보자가 따라할 수 있는 것",
-    "특정 툴/버전/환경 조건이 적혀 있는 것",
-    "개인정보/고객정보/회사기밀이 없는 것",
-    "저작권 문제가 없는 것",
-    "구매자가 바로 써볼 수 있는 것"
-  ],
+  "exercise_sources": {
+    "allowed": [
+      {
+        "id": "fitnessprogramer",
+        "url": "https://fitnessprogramer.com",
+        "license": "확인 필요(시안용)"
+      },
+      {
+        "id": "user",
+        "note": "내 운동 만들기로 사용자가 직접 만든 운동"
+      }
+    ],
+    "image_source_required": true
+  },
   "pii_patterns": {
     "email": "[\\w.+-]+@[\\w-]+\\.[\\w.]+",
     "phone": "01[016789]-?\\d{3,4}-?\\d{4}",

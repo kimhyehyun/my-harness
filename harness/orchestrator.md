@@ -26,12 +26,12 @@
 | 6 | judge 호출 (gate_s5.py) | done | S4로 돌아감, loops.S5 +1 |
 | 7 | 반복 횟수가 rules.json의 loop 한도에 도달 (S1: s1_max, S2: s2_max, S5→S4: s5_to_s4_max) | — | halted, 사람에게 넘김 |
 
-- uibowl 로그인이 풀렸거나 캡처가 막히면 halted. 사유는 "uibowl 다시 로그인 필요"
+- uibowl MCP 인증이 풀렸거나 응답이 없으면 halted. 사유는 "uibowl MCP 인증 필요 (/mcp)"
 - 되돌아간 경우에만 해당 스테이지 폴더를 새로 쓴다. 그 외에는 통과한 스테이지의 파일을 덮어쓰지 않는다.
 
 ## state.json
 ```json
-{ "flow": "mission-submit", "stage": "S3",
+{ "flow": "finish-workout", "stage": "S3",
   "passed": ["S1", "S2"],
   "loops": { "S1": 0, "S2": 0, "S5": 0 },
   "status": "running | waiting_human | halted | done",
@@ -46,4 +46,4 @@
 ## 보고 형식
 - 게이트를 지날 때마다 1줄. 예: `G2 통과 (6/6) → S3 시작`
 - 실패하면 1줄. 예: `G5 실패 (위반 4건) → S4 수정 2/3회차`
-- 멈추면 이유와 사람이 할 일을 1줄로. 예: `⏸ 키스크린 3개 완료. runs/mission-submit/human/approval.md에 승인 또는 반려: 사유를 적어 주세요`
+- 멈추면 이유와 사람이 할 일을 1줄로. 예: `⏸ 키스크린 3개 완료. runs/finish-workout/human/approval.md에 승인 또는 반려: 사유를 적어 주세요`

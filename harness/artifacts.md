@@ -4,9 +4,10 @@
 
 ## 실행 폴더
 실행할 때마다 runs/{플로우}/ 폴더를 하나 만든다.
-플로우 이름은 7개로 고정한다:
-free-browse / paid-library / skill-card / mission-submit /
-asset-register / sale-request / admin-review
+플로우 이름은 5개로 고정한다 (PRD §5):
+pick-today / find-exercise / do-session / finish-workout / review-history
+
+예외: runs/chrifit/은 키스크린(Today) 1장에서 화면 4개를 넓힌 첫 시범 실행 기록이다.
 
 ```
 runs/{플로우}/
@@ -38,11 +39,12 @@ runs/{플로우}/
 - harness/rules.json 1개. 숫자 값은 R5에서 확정한다.
   - design.md(ChriFit)에서 뽑은 값: color 변수, radius 변수, space 변수, 텍스트 스타일, shadow 0개, Primary 버튼 개수
   - 프레임 너비 390, 최소 높이 844, 헤더 높이 56
-  - 플로우 7개, Phase 2 금지 화면 목록
+  - 플로우 5개와 플로우별 유저스토리, 범위 밖 금지어
+  - ★ 운동 상태값·완료 트리거·되돌리기 수단, 운동 자료 출처 목록
   - 레퍼런스 개수 제한 (유형별 3~5장, 전체 15장 이하)
   - Figma fileKey
 - docs/design.md는 사람이 읽는 원본이다. rules.json과 다르면 design.md가 이기고, rules.json을 고친다.
-- docs/design2.md는 읽지 않는다.
+- docs/design-huddling.md, docs/prd-huddling.md는 이전 버전 보관용이다. 읽지 않는다.
 
 ## 재개
 - state.json에 마지막으로 통과한 스테이지와 S5→S4 반복 횟수를 기록한다.
