@@ -1,44 +1,235 @@
 {
-  "_source": "docs/design.md, docs/prd.md. 둘이 다르면 원본 문서가 이긴다.",
-  "figma": { "fileKey": "TBD", "_note": "S3 첫 실행 때 새 파일을 만들고 여기에 기록" },
-  "frame": { "width": 390, "height": 844 },
-  "flows": ["free-browse", "paid-library", "skill-card", "mission-submit",
-            "asset-register", "sale-request", "admin-review"],
-  "refs": {
-    "types": ["학습 콘텐츠 목록", "자료실/다운로드", "미션 제출", "내 자산/판매 상태"],
-    "per_type": [3, 5], "max_total": 15
+  "_source": "docs/design.md(ChriFit, Figma 변수 기준), docs/prd.md. 둘이 다르면 원본 문서가 이긴다.",
+  "figma": {
+    "fileKey": "EDcJ9a4nsLkEYJDmZPGi80",
+    "file": "ChriFit Design System",
+    "keyscreen": "22:145",
+    "pages": {
+      "foundations": "0:1",
+      "components": "6:2",
+      "screens": "6:3",
+      "harness": "35:2"
+    }
   },
-  "points": { "min": 3, "max": 7, "story_ids": [1, 2, 3, 4, 5] },
-  "phase2_forbidden": ["허들링 픽", "구매", "결제", "정산", "판매 수익",
-                       "판매 중", "판매 중지", "리뷰", "평점", "커뮤니티 피드", "채팅"],
-  "asset_status": {
-    "allowed": ["임시저장", "검수 대기", "수정 요청", "승인됨", "반려"],
-    "forbidden": ["판매 중", "판매 중지"]
+  "frame": {
+    "width": 390,
+    "min_height": 844,
+    "header_height": 56
   },
-  "sale_checklist": ["실제 업무에 써본 것", "결과 예시가 있는 것", "사용 방법이 명확한 것",
-                     "초보자가 따라할 수 있는 것", "특정 툴/버전/환경 조건이 적혀 있는 것",
-                     "개인정보/고객정보/회사기밀이 없는 것", "저작권 문제가 없는 것",
-                     "구매자가 바로 써볼 수 있는 것"],
   "colors": {
-    "allowed": ["#141414", "#262626", "#707070", "#adadad", "#e0e0e0",
-                "#f0f0f0", "#f3f3f3", "#ffffff", "#0066ff", "rgba(115,115,115,0.56)"],
-    "accent": "#0066ff", "accent_max_per_screen": 2, "accent_forbidden_nodes": ["button"]
+    "binding_required": true,
+    "variables": {
+      "bg": "#1E2024",
+      "surface": "#26292F",
+      "surface-2": "#353940",
+      "surface-3": "#434852",
+      "ink": "#FFFFFF",
+      "ink-2": "#D3D7DE",
+      "muted": "#8B909A",
+      "line": "#2F333A",
+      "divider": "#141719",
+      "accent": "#1AE7C2",
+      "accent-ink": "#04241C",
+      "pt": "#A78BFA",
+      "alpha/accent-08": "#1AE7C214",
+      "alpha/accent-12": "#1AE7C21F",
+      "alpha/accent-15": "#1AE7C226",
+      "alpha/accent-40": "#1AE7C266",
+      "alpha/pt-12": "#A78BFA1F",
+      "alpha/pt-40": "#A78BFA66",
+      "alpha/pt-60": "#A78BFA99",
+      "alpha/ink-80": "#FFFFFFCC"
+    },
+    "accent": "#1AE7C2",
+    "pt_only_for": "PT 받은 날",
+    "primary_button_max_per_screen": 1
   },
-  "radius": { "allowed": [0, 16, 24, 9999], "icon_ratio": 0.3, "icon_nodes": ["app-icon"] },
-  "spacing": { "allowed": [4, 8, 12, 16, 24, 32, 48, 64] },
-  "shadow": { "allowed_nodes": ["segmented-control-active", "modal", "toast"] },
+  "radius": {
+    "variables": {
+      "xs": 1.5,
+      "sm": 3,
+      "md": 4.5,
+      "lg": 6,
+      "xl": 9,
+      "2xl": 12,
+      "3xl": 18,
+      "4xl": 24
+    },
+    "allowed": [
+      0,
+      1.5,
+      3,
+      4.5,
+      6,
+      9,
+      12,
+      18,
+      24,
+      999
+    ],
+    "known_exceptions": {
+      "Sheet Header (14:154)": "원본 20, 인스턴스에서 3xl로 덮어씀"
+    }
+  },
+  "spacing": {
+    "variables": {
+      "page-x": 20,
+      "card-p": 16,
+      "inside": 12,
+      "group": 24,
+      "section": 28
+    },
+    "allowed": [
+      0,
+      2,
+      4,
+      6,
+      8,
+      10,
+      12,
+      14,
+      16,
+      18,
+      20,
+      24,
+      28,
+      32,
+      48
+    ]
+  },
+  "shadow": {
+    "allowed_nodes": []
+  },
   "typography": {
     "family": "Pretendard",
-    "sizes": [12, 13, 15, 17, 18, 20, 24, 28, 32],
-    "weights": [300, 400, 600, 700],
-    "letter_spacing": 0, "uppercase": false
+    "brand_family": "Jost",
+    "text_style_required": true,
+    "styles": {
+      "brand/wordmark": 36,
+      "brand/date": 20,
+      "title/screen": 24,
+      "title/sheet": 23,
+      "title/group": 19,
+      "title/card": 17,
+      "title/card-sm": 16.5,
+      "body/name": 17,
+      "body/name-sm": 16.5,
+      "body/base": 17,
+      "body/md": 16,
+      "body/sm": 15.5,
+      "body/15": 15,
+      "caption/lg": 14.5,
+      "caption/md": 14,
+      "caption/sm": 13.5,
+      "caption/xs": 13,
+      "label/badge": 12,
+      "label/tab": 11
+    },
+    "weights": [
+      400,
+      500,
+      600,
+      700
+    ]
   },
-  "touch": { "min_height": 44, "nodes": ["button"] },
+  "touch": {
+    "min_height": 44,
+    "nodes": [
+      "Button"
+    ]
+  },
+  "components": [
+    "Button",
+    "Chip",
+    "Badge",
+    "Field",
+    "Exercise Row",
+    "Tab Bar",
+    "PT Toggle",
+    "Record Card",
+    "Sheet Header",
+    "Icon/*",
+    "Mark/Mascot",
+    "Mark/Bloom"
+  ],
+  "flows": [
+    "free-browse",
+    "paid-library",
+    "skill-card",
+    "mission-submit",
+    "asset-register",
+    "sale-request",
+    "admin-review"
+  ],
+  "refs": {
+    "types": [
+      "학습 콘텐츠 목록",
+      "자료실/다운로드",
+      "미션 제출",
+      "내 자산/판매 상태"
+    ],
+    "per_type": [
+      3,
+      5
+    ],
+    "max_total": 15
+  },
+  "points": {
+    "min": 3,
+    "max": 7,
+    "story_ids": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "phase2_forbidden": [
+    "허들링 픽",
+    "구매",
+    "결제",
+    "정산",
+    "판매 수익",
+    "판매 중",
+    "판매 중지",
+    "리뷰",
+    "평점",
+    "커뮤니티 피드",
+    "채팅"
+  ],
+  "asset_status": {
+    "allowed": [
+      "임시저장",
+      "검수 대기",
+      "수정 요청",
+      "승인됨",
+      "반려"
+    ],
+    "forbidden": [
+      "판매 중",
+      "판매 중지"
+    ]
+  },
+  "sale_checklist": [
+    "실제 업무에 써본 것",
+    "결과 예시가 있는 것",
+    "사용 방법이 명확한 것",
+    "초보자가 따라할 수 있는 것",
+    "특정 툴/버전/환경 조건이 적혀 있는 것",
+    "개인정보/고객정보/회사기밀이 없는 것",
+    "저작권 문제가 없는 것",
+    "구매자가 바로 써볼 수 있는 것"
+  ],
   "pii_patterns": {
     "email": "[\\w.+-]+@[\\w-]+\\.[\\w.]+",
     "phone": "01[016789]-?\\d{3,4}-?\\d{4}",
     "rrn": "\\d{6}-?[1-4]\\d{6}",
     "card": "\\d{4}-?\\d{4}-?\\d{4}-?\\d{4}"
   },
-  "loop": { "s1_max": 3, "s2_max": 3, "s5_to_s4_max": 3 }
+  "loop": {
+    "s1_max": 3,
+    "s2_max": 3,
+    "s5_to_s4_max": 3
+  }
 }

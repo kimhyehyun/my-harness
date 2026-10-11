@@ -8,7 +8,7 @@
 |---|---|---|---|
 | S1 레퍼런스 | 1, 2 | 플로우명, uibowl(로그인된 세션) | s1/refs/*.png, s1/refs/index.md, s1/points.md |
 | S2 화면 설계 | 3 | S1 결과, docs/prd.md, docs/story-service.md | 화면 설계 문서 |
-| S3 키스크린 | 4, 5 | S2 결과 | Figma 키스크린 2~3개(390×844) → 사람 컨펌 |
+| S3 키스크린 | 4, 5 | S2 결과 | Figma 키스크린 2~3개(너비 390, ChriFit 기준) → 사람 컨펌 |
 | S4 디자인 | 6 | 컨펌된 키스크린, docs/design.md | Figma 토큰, 컴포넌트, 전체 화면 |
 | S5 검토 | 7 | S4 결과, docs/design.md | 위반 리포트 (읽기 전용 판정) |
 

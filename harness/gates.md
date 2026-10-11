@@ -38,15 +38,15 @@
 ## G5 — S5 완료 (대상: s4/export.json)
 | ID | 조건 |
 |---|---|
-| G5-1 | 색: fill과 stroke 값이 colors.allowed에 있음 |
-| G5-2 | radius: radius.allowed에 있음. app-icon 노드는 한 변의 30% |
+| G5-1 | 색: 모든 fill·stroke가 colors.variables 중 하나에 바인딩됨 (binding_required) |
+| G5-2 | radius: radius.allowed에 있음 (known_exceptions 제외) |
 | G5-3 | 간격: padding과 gap 값이 spacing.allowed에 있음 |
-| G5-4 | 그림자: shadow.allowed_nodes 외 drop shadow 0개 |
-| G5-5 | accent: 화면당 2개 이하, button 노드에는 0개 |
-| G5-6 | 타이포: 폰트, 크기, 굵기, 자간이 허용 목록에 있음 |
-| G5-7 | 프레임: 최상위 화면 크기 390×844 |
-| G5-8 | 터치: button 노드의 높이 44 이상 |
-| G5-9 | textCase UPPER 0개 |
+| G5-4 | 그림자: drop shadow 0개 |
+| G5-5 | Primary 버튼: 화면당 primary_button_max_per_screen 이하 |
+| G5-6 | 타이포: 모든 TEXT에 typography.styles 중 하나가 연결됨 |
+| G5-7 | 프레임: 너비 390, 높이 844 이상, 헤더 높이 56 |
+| G5-8 | 터치: Button 인스턴스 높이 44 이상 |
+| G5-9 | 컴포넌트: 버튼·칩·탭 바 등 rules.json components에 있는 요소는 인스턴스로만 사용 |
 | ★G5-10 | 더미 텍스트에 개인정보 패턴(pii_patterns) 0건 |
 | ★G5-11 | s1/refs 이미지를 화면 안에 그대로 쓴 경우 0건 |
 

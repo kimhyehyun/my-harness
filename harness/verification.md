@@ -18,10 +18,10 @@
 ## 2. 규칙 동기화 검사 (하네스 실행을 시작할 때마다)
 - `python3 harness/gates/check_rules_sync.py`
 - design.md와 rules.json의 아래 항목을 비교한다
-  - hex 색 집합
-  - radius 표 (0/16/24/9999)
-  - 간격 토큰
-  - 타이포 크기와 굵기
+  - color 변수 이름과 hex
+  - radius 변수 표 (xs~4xl)
+  - space 변수
+  - 텍스트 스타일 이름과 크기
 - 하나라도 다르면 halted. 사유는 "design.md 변경됨, rules.json 갱신 필요"
 - rules.json을 고치는 것은 사람이 한다. 에이전트는 harness/에 쓸 수 없다.
 

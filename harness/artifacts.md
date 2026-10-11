@@ -36,8 +36,8 @@ runs/{플로우}/
 
 ## 규칙 SSOT
 - harness/rules.json 1개. 숫자 값은 R5에서 확정한다.
-  - design.md에서 뽑은 값: 허용 hex, radius, 간격, shadow 0개, accent 개수 제한
-  - 프레임 크기 390×844
+  - design.md(ChriFit)에서 뽑은 값: color 변수, radius 변수, space 변수, 텍스트 스타일, shadow 0개, Primary 버튼 개수
+  - 프레임 너비 390, 최소 높이 844, 헤더 높이 56
   - 플로우 7개, Phase 2 금지 화면 목록
   - 레퍼런스 개수 제한 (유형별 3~5장, 전체 15장 이하)
   - Figma fileKey

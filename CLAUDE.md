@@ -9,7 +9,7 @@
 |---|---|
 | docs/story-service.md | 판정 기준. 유저스토리 5개, 어기면 안 되는 것 2개 |
 | docs/story-work.md | 원래 손으로 하던 작업 흐름 |
-| docs/design.md | 디자인 규칙 원본 (docs/design2.md는 읽지 않음) |
+| docs/design.md | 디자인 규칙 원본 = ChriFit Design System (이전 허들링 규칙은 docs/design-huddling.md, 읽지 않음) |
 | harness/purpose.md | 입력, 사용자, 완료 기준 |
 | harness/pipeline.md | 스테이지 S1~S5, 되돌아가는 지점 |
 | harness/artifacts.md | runs/{flow}/ 파일 구조, 재개 |
@@ -43,7 +43,7 @@
 
 ## 범위
 - PRD §9 MVP 1차만. Phase 2 이후(허들링 픽, 구매자, 결제)는 만들지 않는다.
-- 프레임은 390×844 하나.
+- 프레임 너비 390, 최소 높이 844, 상단 헤더 56. 디자인 기준은 ChriFit Figma 파일(rules.json의 figma).
 
 ## 외부 도구
 - uibowl: 사람이 Chrome에서 로그인한 세션을 쓴다. 로그인이 풀리면 멈추고 알린다. 우회하지 않는다.
