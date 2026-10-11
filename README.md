@@ -6,7 +6,7 @@ ChriFit 운동 앱 화면을 Claude Code가 **규칙(게이트)을 지키며** �
 - 디자인 규칙: [docs/design.md](docs/design.md) (Figma `ChriFit Design System`)
 - 하네스: [CLAUDE.md](CLAUDE.md)에서 시작 → [harness/](harness/)
 - 실행 기록: [runs/chrifit/](runs/chrifit/README.md) — 키스크린 Today 1장으로 화면 4개 생성
-- 화면 이미지(2x): [docs/screens/](docs/screens/) — Splash, History, Add Exercise Sheet, Exercise Detail, Workout Done
+- 화면 이미지(2x): [docs/screens/](docs/screens/) — [Today (main.png)](docs/screens/main.png), Splash, History, Add Exercise Sheet, Exercise Detail, Workout Done
 
 ## 흐름
 S1 레퍼런스(uibowl MCP) → S2 화면 설계 → S3 키스크린 → **사람 컨펌** → S4 디자인(Figma) → S5 검토(읽기 전용 판정)

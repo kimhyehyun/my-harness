@@ -104,9 +104,19 @@ ChriFit은 운동 기록 앱이다. 단일 다크 테마로, 거의 검은 배�
 | 하단 액션 바 | `bg` 배경 + 상단 1px `line`, 탭 바 바로 위 |
 
 ### Header 규칙
-- 하단 탭에서 바로 들어오는 첫 화면(Today, Library, History): 왼쪽 `title/screen` 제목만
+- Today: 왼쪽에 날짜·요일과 날씨 칩, 오른쪽에 메뉴 아이콘을 배치한다 ([오늘 화면](screens/main.png))
+- Library, History: 왼쪽 `title/screen` 제목
 - 그 밖의 화면: ← `Icon/chevron-left` 22 + 가운데 `title/group` 제목 + 오른쪽 22 여백
 - 시트: `Sheet Header` + 오른쪽 `Icon/x` 22 닫기
+
+### Today 화면 구성
+
+[오늘 화면 캡처](screens/main.png)를 홈 화면의 시각적 기준으로 삼는다.
+- 상단: 날짜·요일, 날씨 칩, 메뉴 아이콘
+- 선택 방식: `직접 고르기`와 `스마트 랜덤` 카드를 나란히 배치한다. 선택한 카드는 `accent` 테두리와 `alpha/accent-08` 배경으로 구분한다
+- 탐색: 검색 필드 아래에 즐겨찾기·부위·기구 필터를 하나의 `surface` 영역으로 묶는다
+- 목록: 운동 개수와 `내 운동` 제목 다음에 사진·이름·부위/기구·선택 표시·즐겨찾기 아이콘이 있는 행을 배치한다
+- 하단: `Tab Bar`의 `오늘`을 활성 상태로 표시한다
 
 ## Shapes
 
