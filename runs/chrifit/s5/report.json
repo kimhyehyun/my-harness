@@ -1,0 +1,14 @@
+{
+  "flow": "chrifit",
+  "target": "Figma 35:2 (03 Harness)",
+  "checks": ["color-unbound", "radius", "text-style-missing", "shadow"],
+  "runs": [
+    {"round": 1, "violations": [
+      {"rule": "radius", "target": "Add Exercise Sheet > Sheet Header", "actual": 20, "allowed": [0, 1.5, 3, 4.5, 6, 9, 12, 18, 24, 999]}
+    ], "count": 1, "action": "인스턴스 상단 radius를 3xl(18) 변수로 바인딩"},
+    {"round": 2, "violations": [], "count": 0}
+  ],
+  "screens": {"History": "37:22", "Add Exercise Sheet": "37:23", "Exercise Detail": "37:24", "Workout Done": "37:25"},
+  "open_issues": ["Sheet Header 컴포넌트 원본(14:154) radius 20 — 01 Components에서 3xl로 수정 필요"],
+  "result": "pass"
+}
