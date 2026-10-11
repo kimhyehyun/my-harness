@@ -174,4 +174,4 @@ ChriFit은 운동 기록 앱이다. 단일 다크 테마로, 거의 검은 배�
 | Exercise Detail | 37:24 | "설명 보기" |
 | Workout Done | 37:25 | "오늘 운동 마치기" |
 
-운동 이름·이미지 출처: fitnessprogramer.com (Chest). 이미지는 시안용이며 실제 배포 전 사용 허락 또는 교체가 필요하다.
+운동 이름·이미지 출처: fitnessprogramer.com (Chest). 이미지 사용은 허락받았다.
