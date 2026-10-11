@@ -1,0 +1,11 @@
+{
+  "hooks": {
+    "PreToolUse": [
+      { "matcher": "Write", "hooks": [ { "type": "command", "command": "python3 \"$CLAUDE_PROJECT_DIR\"/harness/hooks/guard.py" } ] },
+      { "matcher": "Edit", "hooks": [ { "type": "command", "command": "python3 \"$CLAUDE_PROJECT_DIR\"/harness/hooks/guard.py" } ] },
+      { "matcher": "MultiEdit", "hooks": [ { "type": "command", "command": "python3 \"$CLAUDE_PROJECT_DIR\"/harness/hooks/guard.py" } ] },
+      { "matcher": "NotebookEdit", "hooks": [ { "type": "command", "command": "python3 \"$CLAUDE_PROJECT_DIR\"/harness/hooks/guard.py" } ] },
+      { "matcher": "Bash", "hooks": [ { "type": "command", "command": "python3 \"$CLAUDE_PROJECT_DIR\"/harness/hooks/guard.py" } ] }
+    ]
+  }
+}

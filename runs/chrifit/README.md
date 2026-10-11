@@ -9,6 +9,8 @@
 | ![](s3/keyscreen-today.png) `s3/keyscreen-today.png` | Today `22:145` (02 Screens) |
 
 ## S4 화면 (키스크린 1장 → 4장)
+`s4/export.json`: harness/figma/export_s4.js로 뽑은 노드 값 (판정 입력)
+
 | # | 화면 | 진입 | Figma 노드 | 이미지 |
 |---|---|---|---|---|
 | 1 | History | 탭 바 "기록" | `37:22` | `s4/01-history.png` |
@@ -21,6 +23,9 @@
 </p>
 
 ## S5 검토
+`python3 harness/gates/gate_s5.py runs/chrifit` — 판정 스크립트 1회차 위반 49건(폭죽 선 채움 48, 시트 여백 120) → S4에서 수정 → 2회차 0건 통과.
+
+이전 기록:
 `s5/report.json` — 1회차 위반 1건(Sheet Header radius 20) → 인스턴스를 `3xl`로 덮어써 0건.
 
 판정 기준을 ChriFit PRD로 바꾼 뒤(★G5-10 이미지 출처) 운동 이미지 노드 6개에 `source=fitnessprogramer`를 레이어 이름으로 달았다.

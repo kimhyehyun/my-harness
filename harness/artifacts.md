@@ -31,9 +31,15 @@ runs/{플로우}/
 | S4 | s4/export.json (Figma에도 실제 화면이 그려짐) |
 | S5 | s5/report.json |
 
+## 파일 형식 (템플릿)
+- s1/refs/index.md → harness/templates/index.md
+- s1/points.md → harness/templates/points.md
+- s2/screens.md → harness/templates/screens.md
+
 ## Figma 결과물 판정 방식
-- S4 에이전트가 작업을 마칠 때 Figma에서 노드별 값을 뽑아 s4/export.json으로 저장한다.
-- 판정 스크립트는 s4/export.json만 읽는다. Figma에는 접근하지 않는다.
+- ui-designer가 harness/figma/export_s4.js를 화면 1개씩 실행해(use_figma 반환 한도 20KB) screens[]를 합쳐 s4/export.json으로 저장한다.
+- 판정 스크립트(harness/gates/gate_s5.py)는 s4/export.json만 읽는다. Figma에는 접근하지 않는다.
+- 컴포넌트 인스턴스 내부는 디자인 시스템 원본이라 텍스트·이미지 노드만 기록된다.
 
 ## 규칙 SSOT
 - harness/rules.json 1개. 숫자 값은 R5에서 확정한다.

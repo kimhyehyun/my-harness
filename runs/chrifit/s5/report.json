@@ -1,58 +1,83 @@
 {
   "flow": "chrifit",
-  "target": "Figma 35:2 (03 Harness)",
-  "checks": [
-    "color-unbound",
-    "radius",
-    "text-style-missing",
-    "shadow",
-    "image-source (★G5-10)"
-  ],
-  "runs": [
-    {
-      "round": 1,
+  "gate": "G5 (harness/gates/gate_s5.py)",
+  "target": "runs/chrifit/s4/export.json (Figma 35:2, export_s4.js)",
+  "history": {
+    "manual_check_before_scripts": [
+      {
+        "round": 1,
+        "violations": [
+          {
+            "rule": "radius",
+            "target": "Add Exercise Sheet > Sheet Header",
+            "actual": 20,
+            "allowed": [
+              0,
+              1.5,
+              3,
+              4.5,
+              6,
+              9,
+              12,
+              18,
+              24,
+              999
+            ]
+          }
+        ],
+        "count": 1,
+        "action": "인스턴스 상단 radius를 3xl(18) 변수로 바인딩"
+      },
+      {
+        "round": 2,
+        "violations": [],
+        "count": 0
+      },
+      {
+        "round": 3,
+        "violations": [],
+        "count": 0,
+        "note": "ChriFit 판정 기준 적용 후 운동 이미지 6개에 source=fitnessprogramer 태그"
+      }
+    ],
+    "script_round_1": {
+      "count": 49,
       "violations": [
         {
-          "rule": "radius",
-          "target": "Add Exercise Sheet > Sheet Header",
-          "actual": 20,
-          "allowed": [
-            0,
-            1.5,
-            3,
-            4.5,
-            6,
-            9,
-            12,
-            18,
-            24,
-            999
-          ]
+          "rule": "G5-3",
+          "actual": "120",
+          "count": 1
+        },
+        {
+          "rule": "G5-1",
+          "actual": "fills:SOLID:None",
+          "count": 48
         }
       ],
-      "count": 1,
-      "action": "인스턴스 상단 radius를 3xl(18) 변수로 바인딩"
+      "detail": "G5-1: 폭죽(Fireworks) 선 Vector 48개에 변수 없는 기본 채움 / G5-3: 운동 추가 시트 content 아래 여백 120",
+      "action": "S4로 복귀: 선 Vector 채움 제거, 아래 여백 48로 변경 (화면 모양 변화 없음)"
     },
-    {
-      "round": 2,
-      "violations": [],
-      "count": 0
-    },
-    {
-      "round": 3,
-      "violations": [],
+    "script_round_2": {
       "count": 0,
-      "note": "ChriFit 판정 기준 적용 후 운동 이미지 6개에 source=fitnessprogramer 태그"
+      "result": "pass",
+      "checked": [
+        "G5-1",
+        "G5-10",
+        "G5-11",
+        "G5-12",
+        "G5-2",
+        "G5-3",
+        "G5-4",
+        "G5-5",
+        "G5-6",
+        "G5-7",
+        "G5-8",
+        "G5-9"
+      ]
     }
-  ],
-  "screens": {
-    "History": "37:22",
-    "Add Exercise Sheet": "37:23",
-    "Exercise Detail": "37:24",
-    "Workout Done": "37:25"
   },
+  "result": "pass",
   "open_issues": [
     "Sheet Header 컴포넌트 원본(14:154) radius 20 — 01 Components에서 3xl로 수정 필요"
-  ],
-  "result": "pass"
+  ]
 }

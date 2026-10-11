@@ -20,6 +20,9 @@
 | harness/roles.md | 에이전트, 편집 폴더, 트리거 |
 | harness/orchestrator.md | 실행 순서, state.json, 보고 형식 |
 | harness/verification.md | 스크립트 검증, 규칙 동기화, 회고 |
+| harness/gates/*.py | 판정 스크립트 (G1·G2·G5, 규칙 동기화) |
+| .claude/agents/*.md | 서브에이전트 5개 정의 |
+| harness/hooks/guard.py | 편집 범위 훅 (.claude/settings.json) |
 
 docs/prd-huddling.md, docs/design-huddling.md는 이전 버전 보관용이다. 읽지 않는다.
 
@@ -52,7 +55,8 @@ docs/prd-huddling.md, docs/design-huddling.md는 이전 버전 보관용이다. 
 
 ## 외부 도구
 - uibowl: 프로젝트 .mcp.json의 uibowl MCP를 쓴다. 인증이 풀리면 멈추고 `/mcp` 재인증을 요청한다. 우회하지 않는다.
-- Figma: fileKey는 rules.json에 둔다. 키스크린은 02 Screens, 새 화면은 `{flow}` 이름의 페이지에 그린다. 기존 페이지(00·01·02)의 원본 컴포넌트는 수정하지 않는다.
+- Figma: fileKey는 rules.json에 둔다. 기준 키스크린은 02 Screens의 Today. 플로우 키스크린은 `{flow} · keyscreens`, 전체 화면은 `{flow}` 페이지에 그린다. 기존 페이지(00·01·02)와 원본 컴포넌트는 수정하지 않는다.
+- Figma 판정 입력은 harness/figma/export_s4.js로 만든 s4/export.json이다.
 
 ## 규칙이 바뀌면
 - design.md·prd.md가 원본이다. rules.json과 다르면 실행을 멈추고 사람에게 갱신을 요청한다.

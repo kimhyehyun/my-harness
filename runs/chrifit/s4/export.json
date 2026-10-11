@@ -1,0 +1,3510 @@
+{
+ "exported_from": {
+  "fileKey": "EDcJ9a4nsLkEYJDmZPGi80",
+  "page": "35:2"
+ },
+ "screens": [
+  {
+   "id": "37:22",
+   "name": "History",
+   "width": 390,
+   "height": 1071,
+   "nodes": [
+    {
+     "id": "37:22",
+     "name": "History",
+     "type": "FRAME",
+     "height": 1071,
+     "fills": [
+      {
+       "type": "SOLID",
+       "var": "bg"
+      }
+     ]
+    },
+    {
+     "id": "38:2",
+     "name": "body",
+     "type": "FRAME",
+     "height": 1013,
+     "padding": [
+      0,
+      20,
+      32,
+      20
+     ],
+     "gap": 16
+    },
+    {
+     "id": "38:3",
+     "name": "header",
+     "type": "FRAME",
+     "height": 56,
+     "padding": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "gap": 0
+    },
+    {
+     "id": "38:4",
+     "name": "기록",
+     "type": "TEXT",
+     "height": 29,
+     "fills": [
+      {
+       "type": "SOLID",
+       "var": "ink"
+      }
+     ],
+     "characters": "기록",
+     "textStyle": "title/screen"
+    },
+    {
+     "id": "38:5",
+     "name": "Icon/calendar-days",
+     "type": "INSTANCE",
+     "height": 22,
+     "component": "Icon/calendar-days"
+    },
+    {
+     "id": "38:17",
+     "name": "month card",
+     "type": "FRAME",
+     "height": 117,
+     "fills": [
+      {
+       "type": "SOLID",
+       "var": "surface"
+      }
+     ],
+     "strokes": [
+      {
+       "type": "SOLID",
+       "var": "line"
+      }
+     ],
+     "radius": [
+      18
+     ],
+     "padding": [
+      20,
+      20,
+      20,
+      20
+     ],
+     "gap": 6
+    },
+    {
+     "id": "38:18",
+     "name": "9월",
+     "type": "TEXT",
+     "height": 17,
+     "fills": [
+      {
+       "type": "SOLID",
+       "var": "accent"
+      }
+     ],
+     "characters": "9월",
+     "textStyle": "caption/lg"
+    },
+    {
+     "id": "38:19",
+     "name": "이번 달 12번 운동했어요",
+     "type": "TEXT",
+     "height": 29,
+     "fills": [
+      {
+       "type": "SOLID",
+       "var": "ink"
+      }
+     ],
+     "characters": "이번 달 12번 운동했어요",
+     "textStyle": "title/screen"
+    },
+    {
+     "id": "38:20",
+     "name": "총 640분 · 4,820kcal · PT ",
+     "type": "TEXT",
+     "height": 17,
+     "fills": [
+      {
+       "type": "SOLID",
+       "var": "muted"
+      }
+     ],
+     "characters": "총 640분 · 4,820kcal · PT 4회",
+     "textStyle": "caption/lg"
+    },
+    {
+     "id": "38:21",
+     "name": "week",
+     "type": "FRAME",
+     "height": 77,
+     "padding": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "gap": 6
+    },
+    {
+     "id": "38:22",
+     "name": "월 14",
+     "type": "FRAME",
+     "height": 74,
+     "fills": [
+      {
+       "type": "SOLID",
+       "var": "surface"
+      }
+     ],
+     "radius": [
+      12
+     ],
+     "padding": [
+      10,
+      0,
+      10,
+      0
+     ],
+     "gap": 6
+    },
+    {
+     "id": "38:23",
+     "name": "월",
+     "type": "TEXT",
+     "height": 16,
+     "fills": [
+      {
+       "type": "SOLID",
+       "var": "muted"
+      }
+     ],
+     "characters": "월",
+     "textStyle": "caption/xs"
+    },
+    {
+     "id": "38:24",
+     "name": "14",
+     "type": "TEXT",
+     "height": 20,
+     "fills": [
+      {
+       "type": "SOLID",
+       "var": "ink"
+      }
+     ],
+     "characters": "14",
+     "textStyle": "body/name-sm"
+    },
+    {
+     "id": "38:25",
+     "name": "dot",
+     "type": "FRAME",
+     "height": 6,
+     "fills": [
+      {
+       "type": "SOLID",
+       "var": "accent"
+      }
+     ],
+     "radius": [
+      999
+     ]
+    },
+    {
+     "id": "38:26",
+     "name": "화 15",
+     "type": "FRAME",
+     "height": 74,
+     "fills": [
+      {
+       "type": "SOLID",
+       "var": "surface"
+      }
+     ],
+     "radius": [
+      12
+     ],
+     "padding": [
+      10,
+      0,
+      10,
+      0
+     ],
+     "gap": 6
+    },
+    {
+     "id": "38:27",
+     "name": "화",
+     "type": "TEXT",
+     "height": 16,
+     "fills": [
+      {
+       "type": "SOLID",
+       "var": "muted"
+      }
+     ],
+     "characters": "화",
+     "textStyle": "caption/xs"
+    },
+    {
+     "id": "38:28",
+     "name": "15",
+     "type": "TEXT",
+     "height": 20,
+     "fills": [
+      {
+       "type": "SOLID",
+       "var": "ink"
+      }
+     ],
+     "characters": "15",
+     "textStyle": "body/name-sm"
+    },
+    {
+     "id": "38:29",
+     "name": "dot",
+     "type": "FRAME",
+     "height": 6,
+     "fills": [
+      {
+       "type": "SOLID",
+       "var": "surface"
+      }
+     ],
+     "radius": [
+      999
+     ]
+    },
+    {
+     "id": "38:30",
+     "name": "수 16",
+     "type": "FRAME",
+     "height": 77,
+     "fills": [
+      {
+       "type": "SOLID",
+       "var": "alpha/accent-08"
+      }
+     ],
+     "strokes": [
+      {
+       "type": "SOLID",
+       "var": "accent"
+      }
+     ],
+     "radius": [
+      12
+     ],
+     "padding": [
+      10,
+      0,
+      10,
+      0
+     ],
+     "gap": 6
+    },
+    {
+     "id": "38:31",
+     "name": "수",
+     "type": "TEXT",
+     "height": 16,
+     "fills": [
+      {
+       "type": "SOLID",
+       "var": "muted"
+      }
+     ],
+     "characters": "수",
+     "textStyle": "caption/xs"
+    },
+    {
+     "id": "38:32",
+     "name": "16",
+     "type": "TEXT",
+     "height": 20,
+     "fills": [
+      {
+       "type": "SOLID",
+       "var": "accent"
+      }
+     ],
+     "characters": "16",
+     "textStyle": "body/name-sm"
+    },
+    {
+     "id": "38:33",
+     "name": "dot",
+     "type": "FRAME",
+     "height": 6,
+     "fills": [
+      {
+       "type": "SOLID",
+       "var": "accent"
+      }
+     ],
+     "radius": [
+      999
+     ]
+    },
+    {
+     "id": "38:34",
+     "name": "목 17",
+     "type": "FRAME",
+     "height": 74,
+     "fills": [
+      {
+       "type": "SOLID",
+       "var": "surface"
+      }
+     ],
+     "radius": [
+      12
+     ],
+     "padding": [
+      10,
+      0,
+      10,
+      0
+     ],
+     "gap": 6
+    },
+    {
+     "id": "38:35",
+     "name": "목",
+     "type": "TEXT",
+     "height": 16,
+     "fills": [
+      {
+       "type": "SOLID",
+       "var": "muted"
+      }
+     ],
+     "characters": "목",
+     "textStyle": "caption/xs"
+    },
+    {
+     "id": "38:36",
+     "name": "17",
+     "type": "TEXT",
+     "height": 20,
+     "fills": [
+      {
+       "type": "SOLID",
+       "var": "ink"
+      }
+     ],
+     "characters": "17",
+     "textStyle": "body/name-sm"
+    },
+    {
+     "id": "38:37",
+     "name": "dot",
+     "type": "FRAME",
+     "height": 6,
+     "fills": [
+      {
+       "type": "SOLID",
+       "var": "surface"
+      }
+     ],
+     "radius": [
+      999
+     ]
+    },
+    {
+     "id": "38:38",
+     "name": "금 18",
+     "type": "FRAME",
+     "height": 74,
+     "fills": [
+      {
+       "type": "SOLID",
+       "var": "surface"
+      }
+     ],
+     "radius": [
+      12
+     ],
+     "padding": [
+      10,
+      0,
+      10,
+      0
+     ],
+     "gap": 6
+    },
+    {
+     "id": "38:39",
+     "name": "금",
+     "type": "TEXT",
+     "height": 16,
+     "fills": [
+      {
+       "type": "SOLID",
+       "var": "muted"
+      }
+     ],
+     "characters": "금",
+     "textStyle": "caption/xs"
+    },
+    {
+     "id": "38:40",
+     "name": "18",
+     "type": "TEXT",
+     "height": 20,
+     "fills": [
+      {
+       "type": "SOLID",
+       "var": "ink"
+      }
+     ],
+     "characters": "18",
+     "textStyle": "body/name-sm"
+    },
+    {
+     "id": "38:41",
+     "name": "dot",
+     "type": "FRAME",
+     "height": 6,
+     "fills": [
+      {
+       "type": "SOLID",
+       "var": "surface"
+      }
+     ],
+     "radius": [
+      999
+     ]
+    },
+    {
+     "id": "38:42",
+     "name": "토 19",
+     "type": "FRAME",
+     "height": 74,
+     "fills": [
+      {
+       "type": "SOLID",
+       "var": "surface"
+      }
+     ],
+     "radius": [
+      12
+     ],
+     "padding": [
+      10,
+      0,
+      10,
+      0
+     ],
+     "gap": 6
+    },
+    {
+     "id": "38:43",
+     "name": "토",
+     "type": "TEXT",
+     "height": 16,
+     "fills": [
+      {
+       "type": "SOLID",
+       "var": "muted"
+      }
+     ],
+     "characters": "토",
+     "textStyle": "caption/xs"
+    },
+    {
+     "id": "38:44",
+     "name": "19",
+     "type": "TEXT",
+     "height": 20,
+     "fills": [
+      {
+       "type": "SOLID",
+       "var": "ink"
+      }
+     ],
+     "characters": "19",
+     "textStyle": "body/name-sm"
+    },
+    {
+     "id": "38:45",
+     "name": "dot",
+     "type": "FRAME",
+     "height": 6,
+     "fills": [
+      {
+       "type": "SOLID",
+       "var": "surface"
+      }
+     ],
+     "radius": [
+      999
+     ]
+    },
+    {
+     "id": "38:46",
+     "name": "일 20",
+     "type": "FRAME",
+     "height": 74,
+     "fills": [
+      {
+       "type": "SOLID",
+       "var": "surface"
+      }
+     ],
+     "radius": [
+      12
+     ],
+     "padding": [
+      10,
+      0,
+      10,
+      0
+     ],
+     "gap": 6
+    },
+    {
+     "id": "38:47",
+     "name": "일",
+     "type": "TEXT",
+     "height": 16,
+     "fills": [
+      {
+       "type": "SOLID",
+       "var": "muted"
+      }
+     ],
+     "characters": "일",
+     "textStyle": "caption/xs"
+    },
+    {
+     "id": "38:48",
+     "name": "20",
+     "type": "TEXT",
+     "height": 20,
+     "fills": [
+      {
+       "type": "SOLID",
+       "var": "ink"
+      }
+     ],
+     "characters": "20",
+     "textStyle": "body/name-sm"
+    },
+    {
+     "id": "38:49",
+     "name": "dot",
+     "type": "FRAME",
+     "height": 6,
+     "fills": [
+      {
+       "type": "SOLID",
+       "var": "surface"
+      }
+     ],
+     "radius": [
+      999
+     ]
+    },
+    {
+     "id": "38:50",
+     "name": "recent header",
+     "type": "FRAME",
+     "height": 35,
+     "padding": [
+      12,
+      0,
+      0,
+      0
+     ],
+     "gap": 0
+    },
+    {
+     "id": "38:51",
+     "name": "최근 기록",
+     "type": "TEXT",
+     "height": 23,
+     "fills": [
+      {
+       "type": "SOLID",
+       "var": "ink"
+      }
+     ],
+     "characters": "최근 기록",
+     "textStyle": "title/group"
+    },
+    {
+     "id": "38:52",
+     "name": "spacer",
+     "type": "FRAME",
+     "height": 1
+    },
+    {
+     "id": "38:53",
+     "name": "전체 보기",
+     "type": "TEXT",
+     "height": 17,
+     "fills": [
+      {
+       "type": "SOLID",
+       "var": "muted"
+      }
+     ],
+     "characters": "전체 보기",
+     "textStyle": "caption/lg"
+    },
+    {
+     "id": "38:54",
+     "name": "Icon/chevron-right",
+     "type": "INSTANCE",
+     "height": 15,
+     "component": "Icon/chevron-right"
+    },
+    {
+     "id": "38:57",
+     "name": "Record Card",
+     "type": "INSTANCE",
+     "height": 308,
+     "radius": [
+      12
+     ],
+     "component": "Record Card"
+    },
+    {
+     "id": "I38:57;14:107",
+     "name": "9월 16일 (수)",
+     "type": "TEXT",
+     "in_instance": true,
+     "height": 20,
+     "characters": "9월 16일 (수)",
+     "textStyle": "title/card"
+    },
+    {
+     "id": "I38:57;14:108;11:17",
+     "name": "오늘",
+     "type": "TEXT",
+     "in_instance": true,
+     "height": 14,
+     "characters": "오늘",
+     "textStyle": "label/badge"
+    },
+    {
+     "id": "I38:57;14:110;11:19",
+     "name": "PT",
+     "type": "TEXT",
+     "in_instance": true,
+     "height": 14,
+     "characters": "PT",
+     "textStyle": "label/badge"
+    },
+    {
+     "id": "I38:57;14:113",
+     "name": "1/1",
+     "type": "TEXT",
+     "in_instance": true,
+     "height": 17,
+     "characters": "1/1"
+    },
+    {
+     "id": "I38:57;14:114",
+     "name": "plan",
+     "type": "TEXT",
+     "in_instance": true,
+     "height": 16,
+     "characters": "90분 · 컨디션 100% · 4세트 × 12회",
+     "textStyle": "caption/sm"
+    },
+    {
+     "id": "I38:57;14:116;11:8",
+     "name": "밴드 힙 어브덕션",
+     "type": "TEXT",
+     "in_instance": true,
+     "height": 16,
+     "characters": "덤벨 풀오버",
+     "textStyle": "caption/xs"
+    },
+    {
+     "id": "I38:57;14:126",
+     "name": "운동 추가",
+     "type": "TEXT",
+     "in_instance": true,
+     "height": 16,
+     "characters": "운동 추가"
+    },
+    {
+     "id": "I38:57;14:127",
+     "name": "이 날 기록",
+     "type": "TEXT",
+     "in_instance": true,
+     "height": 16,
+     "characters": "이 날 기록"
+    },
+    {
+     "id": "I38:57;14:129;11:45",
+     "name": "62",
+     "type": "TEXT",
+     "in_instance": true,
+     "height": 20,
+     "characters": "62"
+    },
+    {
+     "id": "I38:57;14:129;11:47",
+     "name": "분",
+     "type": "TEXT",
+     "in_instance": true,
+     "height": 16,
+     "characters": "분",
+     "textStyle": "caption/xs"
+    },
+    {
+     "id": "I38:57;14:137;11:45",
+     "name": "62",
+     "type": "TEXT",
+     "in_instance": true,
+     "height": 20,
+     "characters": "380"
+    },
+    {
+     "id": "I38:57;14:137;11:47",
+     "name": "분",
+     "type": "TEXT",
+     "in_instance": true,
+     "height": 16,
+     "characters": "kcal",
+     "textStyle": "caption/xs"
+    },
+    {
+     "id": "I38:57;14:145;14:97",
+     "name": "PT 받은 날",
+     "type": "TEXT",
+     "in_instance": true,
+     "height": 18,
+     "characters": "PT 받은 날"
+    },
+    {
+     "id": "I38:57;14:153",
+     "name": "삭제",
+     "type": "TEXT",
+     "in_instance": true,
+     "height": 16,
+     "characters": "삭제"
+    },
+    {
+     "id": "38:140",
+     "name": "Record Card",
+     "type": "INSTANCE",
+     "height": 308,
+     "radius": [
+      12
+     ],
+     "component": "Record Card"
+    },
+    {
+     "id": "I38:140;14:107",
+     "name": "9월 16일 (수)",
+     "type": "TEXT",
+     "in_instance": true,
+     "height": 20,
+     "characters": "9월 14일 (월)",
+     "textStyle": "title/card"
+    },
+    {
+     "id": "I38:140;14:110;11:19",
+     "name": "PT",
+     "type": "TEXT",
+     "in_instance": true,
+     "height": 14,
+     "characters": "PT",
+     "textStyle": "label/badge"
+    },
+    {
+     "id": "I38:140;14:113",
+     "name": "1/1",
+     "type": "TEXT",
+     "in_instance": true,
+     "height": 17,
+     "characters": "1/1"
+    },
+    {
+     "id": "I38:140;14:114",
+     "name": "plan",
+     "type": "TEXT",
+     "in_instance": true,
+     "height": 16,
+     "characters": "60분 · 컨디션 보통 · 3세트 × 12회",
+     "textStyle": "caption/sm"
+    },
+    {
+     "id": "I38:140;14:116;11:8",
+     "name": "밴드 힙 어브덕션",
+     "type": "TEXT",
+     "in_instance": true,
+     "height": 16,
+     "characters": "벤치 프레스",
+     "textStyle": "caption/xs"
+    },
+    {
+     "id": "I38:140;14:126",
+     "name": "운동 추가",
+     "type": "TEXT",
+     "in_instance": true,
+     "height": 16,
+     "characters": "운동 추가"
+    },
+    {
+     "id": "I38:140;14:127",
+     "name": "이 날 기록",
+     "type": "TEXT",
+     "in_instance": true,
+     "height": 16,
+     "characters": "이 날 기록"
+    },
+    {
+     "id": "I38:140;14:129;11:45",
+     "name": "62",
+     "type": "TEXT",
+     "in_instance": true,
+     "height": 20,
+     "characters": "62"
+    },
+    {
+     "id": "I38:140;14:129;11:47",
+     "name": "분",
+     "type": "TEXT",
+     "in_instance": true,
+     "height": 16,
+     "characters": "분",
+     "textStyle": "caption/xs"
+    },
+    {
+     "id": "I38:140;14:137;11:45",
+     "name": "62",
+     "type": "TEXT",
+     "in_instance": true,
+     "height": 20,
+     "characters": "380"
+    },
+    {
+     "id": "I38:140;14:137;11:47",
+     "name": "분",
+     "type": "TEXT",
+     "in_instance": true,
+     "height": 16,
+     "characters": "kcal",
+     "textStyle": "caption/xs"
+    },
+    {
+     "id": "I38:140;14:145;14:97",
+     "name": "PT 받은 날",
+     "type": "TEXT",
+     "in_instance": true,
+     "height": 18,
+     "characters": "PT 받은 날"
+    },
+    {
+     "id": "I38:140;14:153",
+     "name": "삭제",
+     "type": "TEXT",
+     "in_instance": true,
+     "height": 16,
+     "characters": "삭제"
+    },
+    {
+     "id": "38:189",
+     "name": "Tab Bar",
+     "type": "INSTANCE",
+     "height": 58,
+     "component": "Tab Bar",
+     "variant": "Active=History"
+    },
+    {
+     "id": "I38:189;13:133",
+     "name": "운동",
+     "type": "TEXT",
+     "in_instance": true,
+     "height": 13,
+     "characters": "운동"
+    },
+    {
+     "id": "I38:189;13:151",
+     "name": "오늘",
+     "type": "TEXT",
+     "in_instance": true,
+     "height": 13,
+     "characters": "오늘"
+    },
+    {
+     "id": "I38:189;13:158",
+     "name": "기록",
+     "type": "TEXT",
+     "in_instance": true,
+     "height": 13,
+     "characters": "기록"
+    }
+   ]
+  },
+  {
+   "id": "37:23",
+   "name": "Add Exercise Sheet",
+   "width": 390,
+   "height": 844,
+   "nodes": [
+    {
+     "id": "37:23",
+     "name": "Add Exercise Sheet",
+     "type": "FRAME",
+     "height": 844,
+     "fills": [
+      {
+       "type": "SOLID",
+       "var": "divider"
+      }
+     ]
+    },
+    {
+     "id": "38:249",
+     "name": "sheet",
+     "type": "FRAME",
+     "height": 772,
+     "fills": [
+      {
+       "type": "SOLID",
+       "var": "surface"
+      }
+     ],
+     "radius": [
+      18,
+      18,
+      0,
+      0
+     ],
+     "padding": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "gap": 0
+    },
+    {
+     "id": "38:250",
+     "name": "Sheet Header",
+     "type": "INSTANCE",
+     "height": 67,
+     "radius": [
+      18,
+      18,
+      0,
+      0
+     ],
+     "component": "Sheet Header"
+    },
+    {
+     "id": "I38:250;14:156",
+     "name": "운동 추가",
+     "type": "TEXT",
+     "in_instance": true,
+     "height": 27,
+     "characters": "운동 추가",
+     "textStyle": "title/sheet"
+    },
+    {
+     "id": "38:253",
+     "name": "content",
+     "type": "FRAME",
+     "height": 719,
+     "padding": [
+      4,
+      20,
+      48,
+      20
+     ],
+     "gap": 16
+    },
+    {
+     "id": "38:254",
+     "name": "search field",
+     "type": "FRAME",
+     "height": 56,
+     "fills": [
+      {
+       "type": "SOLID",
+       "var": "surface-2"
+      }
+     ],
+     "radius": [
+      12
+     ],
+     "padding": [
+      18,
+      16,
+      18,
+      16
+     ],
+     "gap": 12
+    },
+    {
+     "id": "38:255",
+     "name": "Icon/search",
+     "type": "INSTANCE",
+     "height": 20,
+     "component": "Icon/search"
+    },
+    {
+     "id": "38:259",
+     "name": "운동 이름으로 검색",
+     "type": "TEXT",
+     "height": 18,
+     "fills": [
+      {
+       "type": "SOLID",
+       "var": "muted"
+      }
+     ],
+     "characters": "운동 이름으로 검색",
+     "textStyle": "body/15"
+    },
+    {
+     "id": "38:260",
+     "name": "filter card",
+     "type": "FRAME",
+     "height": 90,
+     "fills": [
+      {
+       "type": "SOLID",
+       "var": "surface-2"
+      }
+     ],
+     "radius": [
+      12
+     ],
+     "padding": [
+      4,
+      16,
+      4,
+      16
+     ],
+     "gap": 0
+    },
+    {
+     "id": "38:261",
+     "name": "부위",
+     "type": "FRAME",
+     "height": 41,
+     "padding": [
+      12,
+      0,
+      12,
+      0
+     ],
+     "gap": 12
+    },
+    {
+     "id": "38:262",
+     "name": "부위",
+     "type": "TEXT",
+     "height": 17,
+     "fills": [
+      {
+       "type": "SOLID",
+       "var": "muted"
+      }
+     ],
+     "characters": "부위",
+     "textStyle": "caption/lg"
+    },
+    {
+     "id": "38:263",
+     "name": "options",
+     "type": "FRAME",
+     "height": 17,
+     "padding": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "gap": 16
+    },
+    {
+     "id": "38:264",
+     "name": "전체",
+     "type": "TEXT",
+     "height": 17,
+     "fills": [
+      {
+       "type": "SOLID",
+       "var": "ink-2"
+      }
+     ],
+     "characters": "전체",
+     "textStyle": "caption/lg"
+    },
+    {
+     "id": "38:265",
+     "name": "가슴",
+     "type": "TEXT",
+     "height": 17,
+     "fills": [
+      {
+       "type": "SOLID",
+       "var": "accent"
+      }
+     ],
+     "characters": "가슴",
+     "textStyle": "caption/lg"
+    },
+    {
+     "id": "38:266",
+     "name": "등",
+     "type": "TEXT",
+     "height": 17,
+     "fills": [
+      {
+       "type": "SOLID",
+       "var": "ink-2"
+      }
+     ],
+     "characters": "등",
+     "textStyle": "caption/lg"
+    },
+    {
+     "id": "38:267",
+     "name": "어깨",
+     "type": "TEXT",
+     "height": 17,
+     "fills": [
+      {
+       "type": "SOLID",
+       "var": "ink-2"
+      }
+     ],
+     "characters": "어깨",
+     "textStyle": "caption/lg"
+    },
+    {
+     "id": "38:268",
+     "name": "하체",
+     "type": "TEXT",
+     "height": 17,
+     "fills": [
+      {
+       "type": "SOLID",
+       "var": "ink-2"
+      }
+     ],
+     "characters": "하체",
+     "textStyle": "caption/lg"
+    },
+    {
+     "id": "38:269",
+     "name": "기구",
+     "type": "FRAME",
+     "height": 41,
+     "padding": [
+      12,
+      0,
+      12,
+      0
+     ],
+     "gap": 12
+    },
+    {
+     "id": "38:270",
+     "name": "기구",
+     "type": "TEXT",
+     "height": 17,
+     "fills": [
+      {
+       "type": "SOLID",
+       "var": "muted"
+      }
+     ],
+     "characters": "기구",
+     "textStyle": "caption/lg"
+    },
+    {
+     "id": "38:271",
+     "name": "options",
+     "type": "FRAME",
+     "height": 17,
+     "padding": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "gap": 16
+    },
+    {
+     "id": "38:272",
+     "name": "전체",
+     "type": "TEXT",
+     "height": 17,
+     "fills": [
+      {
+       "type": "SOLID",
+       "var": "accent"
+      }
+     ],
+     "characters": "전체",
+     "textStyle": "caption/lg"
+    },
+    {
+     "id": "38:273",
+     "name": "맨몸",
+     "type": "TEXT",
+     "height": 17,
+     "fills": [
+      {
+       "type": "SOLID",
+       "var": "ink-2"
+      }
+     ],
+     "characters": "맨몸",
+     "textStyle": "caption/lg"
+    },
+    {
+     "id": "38:274",
+     "name": "덤벨",
+     "type": "TEXT",
+     "height": 17,
+     "fills": [
+      {
+       "type": "SOLID",
+       "var": "ink-2"
+      }
+     ],
+     "characters": "덤벨",
+     "textStyle": "caption/lg"
+    },
+    {
+     "id": "38:275",
+     "name": "머신",
+     "type": "TEXT",
+     "height": 17,
+     "fills": [
+      {
+       "type": "SOLID",
+       "var": "ink-2"
+      }
+     ],
+     "characters": "머신",
+     "textStyle": "caption/lg"
+    },
+    {
+     "id": "38:276",
+     "name": "count",
+     "type": "FRAME",
+     "height": 21,
+     "padding": [
+      4,
+      0,
+      0,
+      0
+     ],
+     "gap": 0
+    },
+    {
+     "id": "38:277",
+     "name": "가슴 · 10개",
+     "type": "TEXT",
+     "height": 17,
+     "fills": [
+      {
+       "type": "SOLID",
+       "var": "muted"
+      }
+     ],
+     "characters": "가슴 · 10개",
+     "textStyle": "caption/lg"
+    },
+    {
+     "id": "38:278",
+     "name": "spacer",
+     "type": "FRAME",
+     "height": 1
+    },
+    {
+     "id": "38:279",
+     "name": "선택 2",
+     "type": "TEXT",
+     "height": 17,
+     "fills": [
+      {
+       "type": "SOLID",
+       "var": "accent"
+      }
+     ],
+     "characters": "선택 2",
+     "textStyle": "caption/lg"
+    },
+    {
+     "id": "38:280",
+     "name": "rows",
+     "type": "FRAME",
+     "height": 380,
+     "padding": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "gap": 0
+    },
+    {
+     "id": "38:281",
+     "name": "Exercise Row",
+     "type": "INSTANCE",
+     "height": 76,
+     "component": "Exercise Row",
+     "variant": "Selected=True"
+    },
+    {
+     "id": "I38:281;13:42",
+     "name": "image · source=fitnessprogramer",
+     "type": "FRAME",
+     "in_instance": true,
+     "height": 52,
+     "fills": [
+      {
+       "type": "IMAGE",
+       "imageHash": "b710e0e2d9beb99bda4ad9a86713a3c7f6615235"
+      }
+     ],
+     "strokes": [
+      {
+       "type": "SOLID",
+       "var": "accent"
+      }
+     ]
+    },
+    {
+     "id": "I38:281;13:48",
+     "name": "스미스머신 힙쓰러스트",
+     "type": "TEXT",
+     "in_instance": true,
+     "height": 20,
+     "characters": "덤벨 풀오버",
+     "textStyle": "body/name"
+    },
+    {
+     "id": "I38:281;13:49",
+     "name": "엉덩이 · 스미스머신",
+     "type": "TEXT",
+     "in_instance": true,
+     "height": 17,
+     "characters": "가슴  ·  덤벨",
+     "textStyle": "caption/md"
+    },
+    {
+     "id": "38:298",
+     "name": "Exercise Row",
+     "type": "INSTANCE",
+     "height": 76,
+     "component": "Exercise Row",
+     "variant": "Selected=True"
+    },
+    {
+     "id": "I38:298;13:42",
+     "name": "image · source=fitnessprogramer",
+     "type": "FRAME",
+     "in_instance": true,
+     "height": 52,
+     "fills": [
+      {
+       "type": "IMAGE",
+       "imageHash": "2f585b29301a1b2251c23bc47e6a108395ef3736"
+      }
+     ],
+     "strokes": [
+      {
+       "type": "SOLID",
+       "var": "accent"
+      }
+     ]
+    },
+    {
+     "id": "I38:298;13:48",
+     "name": "스미스머신 힙쓰러스트",
+     "type": "TEXT",
+     "in_instance": true,
+     "height": 20,
+     "characters": "덤벨 플라이",
+     "textStyle": "body/name"
+    },
+    {
+     "id": "I38:298;13:49",
+     "name": "엉덩이 · 스미스머신",
+     "type": "TEXT",
+     "in_instance": true,
+     "height": 17,
+     "characters": "가슴  ·  덤벨",
+     "textStyle": "caption/md"
+    },
+    {
+     "id": "38:311",
+     "name": "Exercise Row",
+     "type": "INSTANCE",
+     "height": 76,
+     "component": "Exercise Row",
+     "variant": "Selected=False"
+    },
+    {
+     "id": "I38:311;13:31",
+     "name": "image · source=fitnessprogramer",
+     "type": "FRAME",
+     "in_instance": true,
+     "height": 52,
+     "fills": [
+      {
+       "type": "IMAGE",
+       "imageHash": "f7839cd7d1fc859f78c5dc13d354f146dc9c2baf"
+      }
+     ]
+    },
+    {
+     "id": "I38:311;13:35",
+     "name": "스미스머신 힙쓰러스트",
+     "type": "TEXT",
+     "in_instance": true,
+     "height": 20,
+     "characters": "벤치 프레스",
+     "textStyle": "body/name"
+    },
+    {
+     "id": "I38:311;13:36",
+     "name": "엉덩이 · 스미스머신",
+     "type": "TEXT",
+     "in_instance": true,
+     "height": 17,
+     "characters": "가슴  ·  바벨",
+     "textStyle": "caption/md"
+    },
+    {
+     "id": "38:324",
+     "name": "Exercise Row",
+     "type": "INSTANCE",
+     "height": 76,
+     "component": "Exercise Row",
+     "variant": "Selected=False"
+    },
+    {
+     "id": "I38:324;13:31",
+     "name": "image · source=fitnessprogramer",
+     "type": "FRAME",
+     "in_instance": true,
+     "height": 52,
+     "fills": [
+      {
+       "type": "IMAGE",
+       "imageHash": "0ffdf4e5147c789c647e272754cd310712177d55"
+      }
+     ]
+    },
+    {
+     "id": "I38:324;13:35",
+     "name": "스미스머신 힙쓰러스트",
+     "type": "TEXT",
+     "in_instance": true,
+     "height": 20,
+     "characters": "펙 덱 플라이",
+     "textStyle": "body/name"
+    },
+    {
+     "id": "I38:324;13:36",
+     "name": "엉덩이 · 스미스머신",
+     "type": "TEXT",
+     "in_instance": true,
+     "height": 17,
+     "characters": "가슴  ·  머신",
+     "textStyle": "caption/md"
+    },
+    {
+     "id": "38:335",
+     "name": "Exercise Row",
+     "type": "INSTANCE",
+     "height": 76,
+     "component": "Exercise Row",
+     "variant": "Selected=False"
+    },
+    {
+     "id": "I38:335;13:31",
+     "name": "image · source=fitnessprogramer",
+     "type": "FRAME",
+     "in_instance": true,
+     "height": 52,
+     "fills": [
+      {
+       "type": "IMAGE",
+       "imageHash": "a504f33daa60eb44962056a9e0385a1f23876969"
+      }
+     ]
+    },
+    {
+     "id": "I38:335;13:35",
+     "name": "스미스머신 힙쓰러스트",
+     "type": "TEXT",
+     "in_instance": true,
+     "height": 20,
+     "characters": "로우 케이블 크로스오버",
+     "textStyle": "body/name"
+    },
+    {
+     "id": "I38:335;13:36",
+     "name": "엉덩이 · 스미스머신",
+     "type": "TEXT",
+     "in_instance": true,
+     "height": 17,
+     "characters": "가슴  ·  케이블",
+     "textStyle": "caption/md"
+    },
+    {
+     "id": "46:394",
+     "name": "close",
+     "type": "INSTANCE",
+     "height": 22,
+     "component": "Icon/x"
+    },
+    {
+     "id": "38:346",
+     "name": "confirm bar",
+     "type": "FRAME",
+     "height": 95,
+     "fills": [
+      {
+       "type": "SOLID",
+       "var": "surface"
+      }
+     ],
+     "strokes": [
+      {
+       "type": "SOLID",
+       "var": "line"
+      }
+     ],
+     "padding": [
+      14,
+      20,
+      24,
+      20
+     ],
+     "gap": 12
+    },
+    {
+     "id": "38:347",
+     "name": "전체 해제",
+     "type": "TEXT",
+     "height": 17,
+     "fills": [
+      {
+       "type": "SOLID",
+       "var": "muted"
+      }
+     ],
+     "characters": "전체 해제",
+     "textStyle": "caption/lg"
+    },
+    {
+     "id": "38:348",
+     "name": "Button",
+     "type": "INSTANCE",
+     "height": 56,
+     "radius": [
+      12
+     ],
+     "component": "Button",
+     "variant": "Size=Lg, Style=Primary"
+    },
+    {
+     "id": "I38:348;11:25",
+     "name": "확인",
+     "type": "TEXT",
+     "in_instance": true,
+     "height": 20,
+     "characters": "2개 추가하기"
+    }
+   ]
+  },
+  {
+   "id": "37:24",
+   "name": "Exercise Detail",
+   "width": 390,
+   "height": 1014,
+   "nodes": [
+    {
+     "id": "37:24",
+     "name": "Exercise Detail",
+     "type": "FRAME",
+     "height": 1014,
+     "fills": [
+      {
+       "type": "SOLID",
+       "var": "bg"
+      }
+     ]
+    },
+    {
+     "id": "38:355",
+     "name": "body",
+     "type": "FRAME",
+     "height": 919,
+     "padding": [
+      0,
+      20,
+      32,
+      20
+     ],
+     "gap": 16
+    },
+    {
+     "id": "38:356",
+     "name": "header",
+     "type": "FRAME",
+     "height": 56,
+     "padding": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "gap": 4
+    },
+    {
+     "id": "38:357",
+     "name": "Icon/chevron-left",
+     "type": "INSTANCE",
+     "height": 22,
+     "component": "Icon/chevron-left"
+    },
+    {
+     "id": "38:360",
+     "name": "덤벨 풀오버",
+     "type": "TEXT",
+     "height": 23,
+     "fills": [
+      {
+       "type": "SOLID",
+       "var": "ink"
+      }
+     ],
+     "characters": "덤벨 풀오버",
+     "textStyle": "title/group"
+    },
+    {
+     "id": "38:361",
+     "name": "spacer",
+     "type": "FRAME",
+     "height": 22
+    },
+    {
+     "id": "38:362",
+     "name": "thumbnail · source=fitnessprogramer",
+     "type": "FRAME",
+     "height": 260,
+     "fills": [
+      {
+       "type": "IMAGE",
+       "imageHash": "b710e0e2d9beb99bda4ad9a86713a3c7f6615235"
+      }
+     ],
+     "radius": [
+      18
+     ],
+     "padding": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "gap": 0
+    },
+    {
+     "id": "38:370",
+     "name": "title",
+     "type": "FRAME",
+     "height": 28,
+     "padding": [
+      4,
+      0,
+      0,
+      0
+     ],
+     "gap": 10
+    },
+    {
+     "id": "38:372",
+     "name": "tags",
+     "type": "FRAME",
+     "height": 24,
+     "padding": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "gap": 6
+    },
+    {
+     "id": "38:373",
+     "name": "Chip",
+     "type": "INSTANCE",
+     "height": 24,
+     "radius": [
+      6
+     ],
+     "component": "Chip",
+     "variant": "State=Default"
+    },
+    {
+     "id": "I38:373;11:3",
+     "name": "밴드 힙 어브덕션",
+     "type": "TEXT",
+     "in_instance": true,
+     "height": 16,
+     "characters": "가슴",
+     "textStyle": "caption/xs"
+    },
+    {
+     "id": "38:375",
+     "name": "Chip",
+     "type": "INSTANCE",
+     "height": 24,
+     "radius": [
+      6
+     ],
+     "component": "Chip",
+     "variant": "State=Default"
+    },
+    {
+     "id": "I38:375;11:3",
+     "name": "밴드 힙 어브덕션",
+     "type": "TEXT",
+     "in_instance": true,
+     "height": 16,
+     "characters": "등",
+     "textStyle": "caption/xs"
+    },
+    {
+     "id": "38:377",
+     "name": "Chip",
+     "type": "INSTANCE",
+     "height": 24,
+     "radius": [
+      6
+     ],
+     "component": "Chip",
+     "variant": "State=Default"
+    },
+    {
+     "id": "I38:377;11:3",
+     "name": "밴드 힙 어브덕션",
+     "type": "TEXT",
+     "in_instance": true,
+     "height": 16,
+     "characters": "덤벨",
+     "textStyle": "caption/xs"
+    },
+    {
+     "id": "38:379",
+     "name": "이렇게 해요",
+     "type": "FRAME",
+     "height": 262,
+     "fills": [
+      {
+       "type": "SOLID",
+       "var": "surface"
+      }
+     ],
+     "strokes": [
+      {
+       "type": "SOLID",
+       "var": "line"
+      }
+     ],
+     "radius": [
+      18
+     ],
+     "padding": [
+      20,
+      20,
+      20,
+      20
+     ],
+     "gap": 14
+    },
+    {
+     "id": "38:380",
+     "name": "이렇게 해요",
+     "type": "TEXT",
+     "height": 20,
+     "fills": [
+      {
+       "type": "SOLID",
+       "var": "ink"
+      }
+     ],
+     "characters": "이렇게 해요",
+     "textStyle": "title/card"
+    },
+    {
+     "id": "38:381",
+     "name": "step 1",
+     "type": "FRAME",
+     "height": 36,
+     "padding": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "gap": 12
+    },
+    {
+     "id": "38:382",
+     "name": "num",
+     "type": "FRAME",
+     "height": 22,
+     "fills": [
+      {
+       "type": "SOLID",
+       "var": "alpha/accent-12"
+      }
+     ],
+     "radius": [
+      999
+     ],
+     "padding": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "gap": 0
+    },
+    {
+     "id": "38:383",
+     "name": "1",
+     "type": "TEXT",
+     "height": 14,
+     "fills": [
+      {
+       "type": "SOLID",
+       "var": "accent"
+      }
+     ],
+     "characters": "1",
+     "textStyle": "label/badge"
+    },
+    {
+     "id": "38:384",
+     "name": "벤치에 등 윗부분과 어깨만 대고 누워요. 발",
+     "type": "TEXT",
+     "height": 36,
+     "fills": [
+      {
+       "type": "SOLID",
+       "var": "ink-2"
+      }
+     ],
+     "characters": "벤치에 등 윗부분과 어깨만 대고 누워요. 발은 바닥에 붙여요.",
+     "textStyle": "body/15"
+    },
+    {
+     "id": "38:385",
+     "name": "step 2",
+     "type": "FRAME",
+     "height": 36,
+     "padding": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "gap": 12
+    },
+    {
+     "id": "38:386",
+     "name": "num",
+     "type": "FRAME",
+     "height": 22,
+     "fills": [
+      {
+       "type": "SOLID",
+       "var": "alpha/accent-12"
+      }
+     ],
+     "radius": [
+      999
+     ],
+     "padding": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "gap": 0
+    },
+    {
+     "id": "38:387",
+     "name": "2",
+     "type": "TEXT",
+     "height": 14,
+     "fills": [
+      {
+       "type": "SOLID",
+       "var": "accent"
+      }
+     ],
+     "characters": "2",
+     "textStyle": "label/badge"
+    },
+    {
+     "id": "38:388",
+     "name": "덤벨 하나를 두 손으로 감싸 쥐고, 가슴 위",
+     "type": "TEXT",
+     "height": 36,
+     "fills": [
+      {
+       "type": "SOLID",
+       "var": "ink-2"
+      }
+     ],
+     "characters": "덤벨 하나를 두 손으로 감싸 쥐고, 가슴 위로 팔을 뻗어요.",
+     "textStyle": "body/15"
+    },
+    {
+     "id": "38:389",
+     "name": "step 3",
+     "type": "FRAME",
+     "height": 36,
+     "padding": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "gap": 12
+    },
+    {
+     "id": "38:390",
+     "name": "num",
+     "type": "FRAME",
+     "height": 22,
+     "fills": [
+      {
+       "type": "SOLID",
+       "var": "alpha/accent-12"
+      }
+     ],
+     "radius": [
+      999
+     ],
+     "padding": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "gap": 0
+    },
+    {
+     "id": "38:391",
+     "name": "3",
+     "type": "TEXT",
+     "height": 14,
+     "fills": [
+      {
+       "type": "SOLID",
+       "var": "accent"
+      }
+     ],
+     "characters": "3",
+     "textStyle": "label/badge"
+    },
+    {
+     "id": "38:392",
+     "name": "숨을 들이마시며 팔꿈치를 살짝 굽힌 채 머리",
+     "type": "TEXT",
+     "height": 36,
+     "fills": [
+      {
+       "type": "SOLID",
+       "var": "ink-2"
+      }
+     ],
+     "characters": "숨을 들이마시며 팔꿈치를 살짝 굽힌 채 머리 뒤로 천천히 내려요.",
+     "textStyle": "body/15"
+    },
+    {
+     "id": "38:393",
+     "name": "step 4",
+     "type": "FRAME",
+     "height": 36,
+     "padding": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "gap": 12
+    },
+    {
+     "id": "38:394",
+     "name": "num",
+     "type": "FRAME",
+     "height": 22,
+     "fills": [
+      {
+       "type": "SOLID",
+       "var": "alpha/accent-12"
+      }
+     ],
+     "radius": [
+      999
+     ],
+     "padding": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "gap": 0
+    },
+    {
+     "id": "38:395",
+     "name": "4",
+     "type": "TEXT",
+     "height": 14,
+     "fills": [
+      {
+       "type": "SOLID",
+       "var": "accent"
+      }
+     ],
+     "characters": "4",
+     "textStyle": "label/badge"
+    },
+    {
+     "id": "38:396",
+     "name": "가슴과 등이 늘어나는 느낌이 들면, 숨을 내",
+     "type": "TEXT",
+     "height": 36,
+     "fills": [
+      {
+       "type": "SOLID",
+       "var": "ink-2"
+      }
+     ],
+     "characters": "가슴과 등이 늘어나는 느낌이 들면, 숨을 내쉬며 가슴 위로 다시 올려요.",
+     "textStyle": "body/15"
+    },
+    {
+     "id": "38:397",
+     "name": "포인트",
+     "type": "FRAME",
+     "height": 112,
+     "fills": [
+      {
+       "type": "SOLID",
+       "var": "alpha/accent-08"
+      }
+     ],
+     "strokes": [
+      {
+       "type": "SOLID",
+       "var": "alpha/accent-40"
+      }
+     ],
+     "radius": [
+      12
+     ],
+     "padding": [
+      16,
+      16,
+      16,
+      16
+     ],
+     "gap": 6
+    },
+    {
+     "id": "38:398",
+     "name": "title",
+     "type": "FRAME",
+     "height": 20,
+     "padding": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "gap": 6
+    },
+    {
+     "id": "38:399",
+     "name": "Icon/sparkles",
+     "type": "INSTANCE",
+     "height": 16,
+     "component": "Icon/sparkles"
+    },
+    {
+     "id": "38:406",
+     "name": "포인트",
+     "type": "TEXT",
+     "height": 20,
+     "fills": [
+      {
+       "type": "SOLID",
+       "var": "accent"
+      }
+     ],
+     "characters": "포인트",
+     "textStyle": "body/name-sm"
+    },
+    {
+     "id": "38:407",
+     "name": "허리가 과하게 꺾이지 않는 범위까지만 내려요",
+     "type": "TEXT",
+     "height": 51,
+     "fills": [
+      {
+       "type": "SOLID",
+       "var": "ink-2"
+      }
+     ],
+     "characters": "허리가 과하게 꺾이지 않는 범위까지만 내려요. 반동 없이 가슴과 등 힘으로 올리고, 처음엔 가벼운 무게로 시작해요.",
+     "textStyle": "caption/lg"
+    },
+    {
+     "id": "38:408",
+     "name": "default setting",
+     "type": "FRAME",
+     "height": 89,
+     "padding": [
+      8,
+      0,
+      0,
+      0
+     ],
+     "gap": 10
+    },
+    {
+     "id": "38:409",
+     "name": "기본 설정",
+     "type": "TEXT",
+     "height": 17,
+     "fills": [
+      {
+       "type": "SOLID",
+       "var": "muted"
+      }
+     ],
+     "characters": "기본 설정",
+     "textStyle": "caption/md"
+    },
+    {
+     "id": "38:410",
+     "name": "fields",
+     "type": "FRAME",
+     "height": 54,
+     "padding": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "gap": 10
+    },
+    {
+     "id": "38:411",
+     "name": "Field",
+     "type": "INSTANCE",
+     "height": 54,
+     "radius": [
+      9
+     ],
+     "component": "Field"
+    },
+    {
+     "id": "I38:411;11:45",
+     "name": "62",
+     "type": "TEXT",
+     "in_instance": true,
+     "height": 20,
+     "characters": "3"
+    },
+    {
+     "id": "I38:411;11:47",
+     "name": "분",
+     "type": "TEXT",
+     "in_instance": true,
+     "height": 16,
+     "characters": "세트",
+     "textStyle": "caption/xs"
+    },
+    {
+     "id": "38:420",
+     "name": "Field",
+     "type": "INSTANCE",
+     "height": 54,
+     "radius": [
+      9
+     ],
+     "component": "Field"
+    },
+    {
+     "id": "I38:420;11:45",
+     "name": "62",
+     "type": "TEXT",
+     "in_instance": true,
+     "height": 20,
+     "characters": "10"
+    },
+    {
+     "id": "I38:420;11:47",
+     "name": "분",
+     "type": "TEXT",
+     "in_instance": true,
+     "height": 16,
+     "characters": "회",
+     "textStyle": "caption/xs"
+    },
+    {
+     "id": "38:429",
+     "name": "action bar",
+     "type": "FRAME",
+     "height": 95,
+     "fills": [
+      {
+       "type": "SOLID",
+       "var": "bg"
+      }
+     ],
+     "strokes": [
+      {
+       "type": "SOLID",
+       "var": "line"
+      }
+     ],
+     "padding": [
+      14,
+      20,
+      24,
+      20
+     ],
+     "gap": 12
+    },
+    {
+     "id": "38:430",
+     "name": "Button",
+     "type": "INSTANCE",
+     "height": 56,
+     "radius": [
+      12
+     ],
+     "component": "Button",
+     "variant": "Size=Lg, Style=Secondary"
+    },
+    {
+     "id": "I38:430;11:27",
+     "name": "이 운동 다시 담기",
+     "type": "TEXT",
+     "in_instance": true,
+     "height": 20,
+     "characters": "즐겨찾기"
+    },
+    {
+     "id": "38:432",
+     "name": "Button",
+     "type": "INSTANCE",
+     "height": 56,
+     "radius": [
+      12
+     ],
+     "component": "Button",
+     "variant": "Size=Lg, Style=Primary"
+    },
+    {
+     "id": "I38:432;11:25",
+     "name": "확인",
+     "type": "TEXT",
+     "in_instance": true,
+     "height": 20,
+     "characters": "오늘 운동에 담기"
+    }
+   ]
+  },
+  {
+   "id": "37:25",
+   "name": "Workout Done",
+   "width": 390,
+   "height": 874,
+   "nodes": [
+    {
+     "id": "37:25",
+     "name": "Workout Done",
+     "type": "FRAME",
+     "height": 874,
+     "fills": [
+      {
+       "type": "SOLID",
+       "var": "bg"
+      }
+     ]
+    },
+    {
+     "id": "38:437",
+     "name": "body",
+     "type": "FRAME",
+     "height": 816,
+     "padding": [
+      0,
+      20,
+      32,
+      20
+     ],
+     "gap": 16
+    },
+    {
+     "id": "46:398",
+     "name": "header",
+     "type": "FRAME",
+     "height": 56,
+     "padding": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "gap": 4
+    },
+    {
+     "id": "46:399",
+     "name": "Icon/chevron-left",
+     "type": "INSTANCE",
+     "height": 22,
+     "component": "Icon/chevron-left"
+    },
+    {
+     "id": "46:402",
+     "name": "운동 완료",
+     "type": "TEXT",
+     "height": 23,
+     "fills": [
+      {
+       "type": "SOLID",
+       "var": "ink"
+      }
+     ],
+     "characters": "운동 완료",
+     "textStyle": "title/group"
+    },
+    {
+     "id": "46:403",
+     "name": "spacer",
+     "type": "FRAME",
+     "height": 22
+    },
+    {
+     "id": "43:415",
+     "name": "Fireworks",
+     "type": "FRAME",
+     "height": 150
+    },
+    {
+     "id": "43:416",
+     "name": "Vector",
+     "type": "VECTOR",
+     "strokes": [
+      {
+       "type": "SOLID",
+       "var": "accent"
+      }
+     ]
+    },
+    {
+     "id": "43:417",
+     "name": "Vector",
+     "type": "VECTOR",
+     "strokes": [
+      {
+       "type": "SOLID",
+       "var": "accent"
+      }
+     ]
+    },
+    {
+     "id": "43:418",
+     "name": "Vector",
+     "type": "VECTOR",
+     "strokes": [
+      {
+       "type": "SOLID",
+       "var": "accent"
+      }
+     ]
+    },
+    {
+     "id": "43:419",
+     "name": "Vector",
+     "type": "VECTOR",
+     "strokes": [
+      {
+       "type": "SOLID",
+       "var": "accent"
+      }
+     ]
+    },
+    {
+     "id": "43:420",
+     "name": "Vector",
+     "type": "VECTOR",
+     "strokes": [
+      {
+       "type": "SOLID",
+       "var": "accent"
+      }
+     ]
+    },
+    {
+     "id": "43:421",
+     "name": "Vector",
+     "type": "VECTOR",
+     "strokes": [
+      {
+       "type": "SOLID",
+       "var": "accent"
+      }
+     ]
+    },
+    {
+     "id": "43:422",
+     "name": "Vector",
+     "type": "VECTOR",
+     "strokes": [
+      {
+       "type": "SOLID",
+       "var": "accent"
+      }
+     ]
+    },
+    {
+     "id": "43:423",
+     "name": "Vector",
+     "type": "VECTOR",
+     "strokes": [
+      {
+       "type": "SOLID",
+       "var": "accent"
+      }
+     ]
+    },
+    {
+     "id": "43:424",
+     "name": "Vector",
+     "type": "VECTOR",
+     "strokes": [
+      {
+       "type": "SOLID",
+       "var": "accent"
+      }
+     ]
+    },
+    {
+     "id": "43:425",
+     "name": "Vector",
+     "type": "VECTOR",
+     "strokes": [
+      {
+       "type": "SOLID",
+       "var": "accent"
+      }
+     ]
+    },
+    {
+     "id": "43:426",
+     "name": "Vector",
+     "type": "VECTOR",
+     "strokes": [
+      {
+       "type": "SOLID",
+       "var": "accent"
+      }
+     ]
+    },
+    {
+     "id": "43:427",
+     "name": "Vector",
+     "type": "VECTOR",
+     "strokes": [
+      {
+       "type": "SOLID",
+       "var": "accent"
+      }
+     ]
+    },
+    {
+     "id": "43:428",
+     "name": "Vector",
+     "type": "VECTOR",
+     "strokes": [
+      {
+       "type": "SOLID",
+       "var": "accent"
+      }
+     ]
+    },
+    {
+     "id": "43:429",
+     "name": "Vector",
+     "type": "VECTOR",
+     "strokes": [
+      {
+       "type": "SOLID",
+       "var": "accent"
+      }
+     ]
+    },
+    {
+     "id": "43:430",
+     "name": "Vector",
+     "type": "VECTOR",
+     "strokes": [
+      {
+       "type": "SOLID",
+       "var": "accent"
+      }
+     ]
+    },
+    {
+     "id": "43:431",
+     "name": "Vector",
+     "type": "VECTOR",
+     "strokes": [
+      {
+       "type": "SOLID",
+       "var": "accent"
+      }
+     ]
+    },
+    {
+     "id": "43:432",
+     "name": "Vector",
+     "type": "VECTOR",
+     "strokes": [
+      {
+       "type": "SOLID",
+       "var": "accent"
+      }
+     ]
+    },
+    {
+     "id": "43:433",
+     "name": "Vector",
+     "type": "VECTOR",
+     "strokes": [
+      {
+       "type": "SOLID",
+       "var": "accent"
+      }
+     ]
+    },
+    {
+     "id": "43:434",
+     "name": "Vector",
+     "type": "VECTOR",
+     "strokes": [
+      {
+       "type": "SOLID",
+       "var": "accent"
+      }
+     ]
+    },
+    {
+     "id": "43:435",
+     "name": "Vector",
+     "type": "VECTOR",
+     "strokes": [
+      {
+       "type": "SOLID",
+       "var": "accent"
+      }
+     ]
+    },
+    {
+     "id": "43:436",
+     "name": "Vector",
+     "type": "VECTOR",
+     "strokes": [
+      {
+       "type": "SOLID",
+       "var": "pt"
+      }
+     ]
+    },
+    {
+     "id": "43:437",
+     "name": "Vector",
+     "type": "VECTOR",
+     "strokes": [
+      {
+       "type": "SOLID",
+       "var": "pt"
+      }
+     ]
+    },
+    {
+     "id": "43:438",
+     "name": "Vector",
+     "type": "VECTOR",
+     "strokes": [
+      {
+       "type": "SOLID",
+       "var": "pt"
+      }
+     ]
+    },
+    {
+     "id": "43:439",
+     "name": "Vector",
+     "type": "VECTOR",
+     "strokes": [
+      {
+       "type": "SOLID",
+       "var": "pt"
+      }
+     ]
+    },
+    {
+     "id": "43:440",
+     "name": "Vector",
+     "type": "VECTOR",
+     "strokes": [
+      {
+       "type": "SOLID",
+       "var": "pt"
+      }
+     ]
+    },
+    {
+     "id": "43:441",
+     "name": "Vector",
+     "type": "VECTOR",
+     "strokes": [
+      {
+       "type": "SOLID",
+       "var": "pt"
+      }
+     ]
+    },
+    {
+     "id": "43:442",
+     "name": "Vector",
+     "type": "VECTOR",
+     "strokes": [
+      {
+       "type": "SOLID",
+       "var": "pt"
+      }
+     ]
+    },
+    {
+     "id": "43:443",
+     "name": "Vector",
+     "type": "VECTOR",
+     "strokes": [
+      {
+       "type": "SOLID",
+       "var": "pt"
+      }
+     ]
+    },
+    {
+     "id": "43:444",
+     "name": "Vector",
+     "type": "VECTOR",
+     "strokes": [
+      {
+       "type": "SOLID",
+       "var": "pt"
+      }
+     ]
+    },
+    {
+     "id": "43:445",
+     "name": "Vector",
+     "type": "VECTOR",
+     "strokes": [
+      {
+       "type": "SOLID",
+       "var": "pt"
+      }
+     ]
+    },
+    {
+     "id": "43:446",
+     "name": "Vector",
+     "type": "VECTOR",
+     "strokes": [
+      {
+       "type": "SOLID",
+       "var": "pt"
+      }
+     ]
+    },
+    {
+     "id": "43:447",
+     "name": "Vector",
+     "type": "VECTOR",
+     "strokes": [
+      {
+       "type": "SOLID",
+       "var": "pt"
+      }
+     ]
+    },
+    {
+     "id": "43:448",
+     "name": "Vector",
+     "type": "VECTOR",
+     "strokes": [
+      {
+       "type": "SOLID",
+       "var": "pt"
+      }
+     ]
+    },
+    {
+     "id": "43:449",
+     "name": "Vector",
+     "type": "VECTOR",
+     "strokes": [
+      {
+       "type": "SOLID",
+       "var": "pt"
+      }
+     ]
+    },
+    {
+     "id": "43:450",
+     "name": "Vector",
+     "type": "VECTOR",
+     "strokes": [
+      {
+       "type": "SOLID",
+       "var": "pt"
+      }
+     ]
+    },
+    {
+     "id": "43:451",
+     "name": "Vector",
+     "type": "VECTOR",
+     "strokes": [
+      {
+       "type": "SOLID",
+       "var": "pt"
+      }
+     ]
+    },
+    {
+     "id": "43:452",
+     "name": "Vector",
+     "type": "VECTOR",
+     "strokes": [
+      {
+       "type": "SOLID",
+       "var": "ink-2"
+      }
+     ]
+    },
+    {
+     "id": "43:453",
+     "name": "Vector",
+     "type": "VECTOR",
+     "strokes": [
+      {
+       "type": "SOLID",
+       "var": "ink-2"
+      }
+     ]
+    },
+    {
+     "id": "43:454",
+     "name": "Vector",
+     "type": "VECTOR",
+     "strokes": [
+      {
+       "type": "SOLID",
+       "var": "ink-2"
+      }
+     ]
+    },
+    {
+     "id": "43:455",
+     "name": "Vector",
+     "type": "VECTOR",
+     "strokes": [
+      {
+       "type": "SOLID",
+       "var": "ink-2"
+      }
+     ]
+    },
+    {
+     "id": "43:456",
+     "name": "Vector",
+     "type": "VECTOR",
+     "strokes": [
+      {
+       "type": "SOLID",
+       "var": "ink-2"
+      }
+     ]
+    },
+    {
+     "id": "43:457",
+     "name": "Vector",
+     "type": "VECTOR",
+     "strokes": [
+      {
+       "type": "SOLID",
+       "var": "ink-2"
+      }
+     ]
+    },
+    {
+     "id": "43:458",
+     "name": "Vector",
+     "type": "VECTOR",
+     "strokes": [
+      {
+       "type": "SOLID",
+       "var": "pt"
+      }
+     ]
+    },
+    {
+     "id": "43:459",
+     "name": "Vector",
+     "type": "VECTOR",
+     "strokes": [
+      {
+       "type": "SOLID",
+       "var": "pt"
+      }
+     ]
+    },
+    {
+     "id": "43:460",
+     "name": "Vector",
+     "type": "VECTOR",
+     "strokes": [
+      {
+       "type": "SOLID",
+       "var": "pt"
+      }
+     ]
+    },
+    {
+     "id": "43:461",
+     "name": "Vector",
+     "type": "VECTOR",
+     "strokes": [
+      {
+       "type": "SOLID",
+       "var": "pt"
+      }
+     ]
+    },
+    {
+     "id": "43:462",
+     "name": "Vector",
+     "type": "VECTOR",
+     "strokes": [
+      {
+       "type": "SOLID",
+       "var": "pt"
+      }
+     ]
+    },
+    {
+     "id": "43:463",
+     "name": "Vector",
+     "type": "VECTOR",
+     "strokes": [
+      {
+       "type": "SOLID",
+       "var": "pt"
+      }
+     ]
+    },
+    {
+     "id": "43:464",
+     "name": "Vector",
+     "type": "VECTOR",
+     "fills": [
+      {
+       "type": "SOLID",
+       "var": "accent"
+      }
+     ]
+    },
+    {
+     "id": "43:465",
+     "name": "Vector",
+     "type": "VECTOR",
+     "fills": [
+      {
+       "type": "SOLID",
+       "var": "ink-2"
+      }
+     ]
+    },
+    {
+     "id": "43:466",
+     "name": "Vector",
+     "type": "VECTOR",
+     "fills": [
+      {
+       "type": "SOLID",
+       "var": "accent"
+      }
+     ]
+    },
+    {
+     "id": "43:467",
+     "name": "Vector",
+     "type": "VECTOR",
+     "fills": [
+      {
+       "type": "SOLID",
+       "var": "ink-2"
+      }
+     ]
+    },
+    {
+     "id": "43:468",
+     "name": "Vector",
+     "type": "VECTOR",
+     "fills": [
+      {
+       "type": "SOLID",
+       "var": "accent"
+      }
+     ]
+    },
+    {
+     "id": "43:469",
+     "name": "Vector",
+     "type": "VECTOR",
+     "fills": [
+      {
+       "type": "SOLID",
+       "var": "ink-2"
+      }
+     ]
+    },
+    {
+     "id": "43:470",
+     "name": "Vector",
+     "type": "VECTOR",
+     "fills": [
+      {
+       "type": "SOLID",
+       "var": "pt"
+      }
+     ]
+    },
+    {
+     "id": "43:471",
+     "name": "Vector",
+     "type": "VECTOR",
+     "fills": [
+      {
+       "type": "SOLID",
+       "var": "pt"
+      }
+     ]
+    },
+    {
+     "id": "38:454",
+     "name": "headline",
+     "type": "FRAME",
+     "height": 52,
+     "padding": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "gap": 6
+    },
+    {
+     "id": "38:455",
+     "name": "오늘 운동 끝!",
+     "type": "TEXT",
+     "height": 29,
+     "fills": [
+      {
+       "type": "SOLID",
+       "var": "ink"
+      }
+     ],
+     "characters": "오늘 운동 끝!",
+     "textStyle": "title/screen"
+    },
+    {
+     "id": "38:456",
+     "name": "9월 16일 (수) · 운동 3개 모두 완료",
+     "type": "TEXT",
+     "height": 17,
+     "fills": [
+      {
+       "type": "SOLID",
+       "var": "muted"
+      }
+     ],
+     "characters": "9월 16일 (수) · 운동 3개 모두 완료",
+     "textStyle": "caption/lg"
+    },
+    {
+     "id": "38:457",
+     "name": "summary card",
+     "type": "FRAME",
+     "height": 82,
+     "fills": [
+      {
+       "type": "SOLID",
+       "var": "surface"
+      }
+     ],
+     "strokes": [
+      {
+       "type": "SOLID",
+       "var": "line"
+      }
+     ],
+     "radius": [
+      18
+     ],
+     "padding": [
+      18,
+      16,
+      18,
+      16
+     ],
+     "gap": 0
+    },
+    {
+     "id": "38:458",
+     "name": "분",
+     "type": "FRAME",
+     "height": 44,
+     "padding": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "gap": 4
+    },
+    {
+     "id": "38:459",
+     "name": "62",
+     "type": "TEXT",
+     "height": 23,
+     "fills": [
+      {
+       "type": "SOLID",
+       "var": "ink"
+      }
+     ],
+     "characters": "62",
+     "textStyle": "title/group"
+    },
+    {
+     "id": "38:460",
+     "name": "분",
+     "type": "TEXT",
+     "height": 17,
+     "fills": [
+      {
+       "type": "SOLID",
+       "var": "muted"
+      }
+     ],
+     "characters": "분",
+     "textStyle": "caption/md"
+    },
+    {
+     "id": "38:461",
+     "name": "kcal",
+     "type": "FRAME",
+     "height": 44,
+     "padding": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "gap": 4
+    },
+    {
+     "id": "38:462",
+     "name": "380",
+     "type": "TEXT",
+     "height": 23,
+     "fills": [
+      {
+       "type": "SOLID",
+       "var": "ink"
+      }
+     ],
+     "characters": "380",
+     "textStyle": "title/group"
+    },
+    {
+     "id": "38:463",
+     "name": "kcal",
+     "type": "TEXT",
+     "height": 17,
+     "fills": [
+      {
+       "type": "SOLID",
+       "var": "muted"
+      }
+     ],
+     "characters": "kcal",
+     "textStyle": "caption/md"
+    },
+    {
+     "id": "38:464",
+     "name": "완료",
+     "type": "FRAME",
+     "height": 44,
+     "padding": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "gap": 4
+    },
+    {
+     "id": "38:465",
+     "name": "3/3",
+     "type": "TEXT",
+     "height": 23,
+     "fills": [
+      {
+       "type": "SOLID",
+       "var": "accent"
+      }
+     ],
+     "characters": "3/3",
+     "textStyle": "title/group"
+    },
+    {
+     "id": "38:466",
+     "name": "완료",
+     "type": "TEXT",
+     "height": 17,
+     "fills": [
+      {
+       "type": "SOLID",
+       "var": "muted"
+      }
+     ],
+     "characters": "완료",
+     "textStyle": "caption/md"
+    },
+    {
+     "id": "38:467",
+     "name": "done list",
+     "type": "FRAME",
+     "height": 59,
+     "padding": [
+      8,
+      0,
+      0,
+      0
+     ],
+     "gap": 10
+    },
+    {
+     "id": "38:468",
+     "name": "완료한 운동",
+     "type": "TEXT",
+     "height": 17,
+     "fills": [
+      {
+       "type": "SOLID",
+       "var": "muted"
+      }
+     ],
+     "characters": "완료한 운동",
+     "textStyle": "caption/md"
+    },
+    {
+     "id": "38:469",
+     "name": "chips",
+     "type": "FRAME",
+     "height": 24,
+     "padding": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "gap": 6
+    },
+    {
+     "id": "38:470",
+     "name": "Chip",
+     "type": "INSTANCE",
+     "height": 24,
+     "radius": [
+      6
+     ],
+     "component": "Chip",
+     "variant": "State=Done"
+    },
+    {
+     "id": "I38:470;11:8",
+     "name": "밴드 힙 어브덕션",
+     "type": "TEXT",
+     "in_instance": true,
+     "height": 16,
+     "characters": "덤벨 풀오버",
+     "textStyle": "caption/xs"
+    },
+    {
+     "id": "38:475",
+     "name": "Chip",
+     "type": "INSTANCE",
+     "height": 24,
+     "radius": [
+      6
+     ],
+     "component": "Chip",
+     "variant": "State=Done"
+    },
+    {
+     "id": "I38:475;11:8",
+     "name": "밴드 힙 어브덕션",
+     "type": "TEXT",
+     "in_instance": true,
+     "height": 16,
+     "characters": "덤벨 플라이",
+     "textStyle": "caption/xs"
+    },
+    {
+     "id": "38:480",
+     "name": "Chip",
+     "type": "INSTANCE",
+     "height": 24,
+     "radius": [
+      6
+     ],
+     "component": "Chip",
+     "variant": "State=Done"
+    },
+    {
+     "id": "I38:480;11:8",
+     "name": "밴드 힙 어브덕션",
+     "type": "TEXT",
+     "in_instance": true,
+     "height": 16,
+     "characters": "벤치 프레스",
+     "textStyle": "caption/xs"
+    },
+    {
+     "id": "38:485",
+     "name": "PT Toggle",
+     "type": "INSTANCE",
+     "height": 54,
+     "radius": [
+      9
+     ],
+     "component": "PT Toggle",
+     "variant": "State=Off"
+    },
+    {
+     "id": "I38:485;14:97",
+     "name": "PT 받은 날",
+     "type": "TEXT",
+     "in_instance": true,
+     "height": 18,
+     "characters": "PT 받은 날"
+    },
+    {
+     "id": "38:488",
+     "name": "streak",
+     "type": "FRAME",
+     "height": 95,
+     "fills": [
+      {
+       "type": "SOLID",
+       "var": "alpha/accent-08"
+      }
+     ],
+     "strokes": [
+      {
+       "type": "SOLID",
+       "var": "alpha/accent-40"
+      }
+     ],
+     "radius": [
+      12
+     ],
+     "padding": [
+      16,
+      16,
+      16,
+      16
+     ],
+     "gap": 6
+    },
+    {
+     "id": "38:489",
+     "name": "title",
+     "type": "FRAME",
+     "height": 20,
+     "padding": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "gap": 6
+    },
+    {
+     "id": "38:490",
+     "name": "Icon/trophy",
+     "type": "INSTANCE",
+     "height": 16,
+     "component": "Icon/trophy"
+    },
+    {
+     "id": "38:498",
+     "name": "이번 주 2번째 운동",
+     "type": "TEXT",
+     "height": 20,
+     "fills": [
+      {
+       "type": "SOLID",
+       "var": "accent"
+      }
+     ],
+     "characters": "이번 주 2번째 운동",
+     "textStyle": "body/name-sm"
+    },
+    {
+     "id": "38:499",
+     "name": "이 흐름 그대로 가요. 다음 운동은 금요일에",
+     "type": "TEXT",
+     "height": 34,
+     "fills": [
+      {
+       "type": "SOLID",
+       "var": "ink-2"
+      }
+     ],
+     "characters": "이 흐름 그대로 가요. 다음 운동은 금요일에 추천해 드릴게요.",
+     "textStyle": "caption/lg"
+    },
+    {
+     "id": "38:500",
+     "name": "actions",
+     "type": "FRAME",
+     "height": 124,
+     "padding": [
+      8,
+      0,
+      0,
+      0
+     ],
+     "gap": 4
+    },
+    {
+     "id": "38:501",
+     "name": "Button",
+     "type": "INSTANCE",
+     "height": 56,
+     "radius": [
+      12
+     ],
+     "component": "Button",
+     "variant": "Size=Lg, Style=Primary"
+    },
+    {
+     "id": "I38:501;11:25",
+     "name": "확인",
+     "type": "TEXT",
+     "in_instance": true,
+     "height": 20,
+     "characters": "기록 보기"
+    },
+    {
+     "id": "38:506",
+     "name": "Button",
+     "type": "INSTANCE",
+     "height": 56,
+     "radius": [
+      12
+     ],
+     "component": "Button",
+     "variant": "Size=Lg, Style=Ghost"
+    },
+    {
+     "id": "I38:506;11:29",
+     "name": "전체 해제",
+     "type": "TEXT",
+     "in_instance": true,
+     "height": 20,
+     "characters": "오늘 화면으로"
+    },
+    {
+     "id": "38:508",
+     "name": "Tab Bar",
+     "type": "INSTANCE",
+     "height": 58,
+     "component": "Tab Bar",
+     "variant": "Active=Today"
+    },
+    {
+     "id": "I38:508;13:63",
+     "name": "운동",
+     "type": "TEXT",
+     "in_instance": true,
+     "height": 13,
+     "characters": "운동"
+    },
+    {
+     "id": "I38:508;13:81",
+     "name": "오늘",
+     "type": "TEXT",
+     "in_instance": true,
+     "height": 13,
+     "characters": "오늘"
+    },
+    {
+     "id": "I38:508;13:88",
+     "name": "기록",
+     "type": "TEXT",
+     "in_instance": true,
+     "height": 13,
+     "characters": "기록"
+    }
+   ]
+  }
+ ]
+}

@@ -18,12 +18,13 @@
 ## 실행 순서
 | 순서 | 동작 | 통과하면 | 실패하면 |
 |---|---|---|---|
-| 1 | ref-researcher 호출 → gate_s1.py | S2 | S1 다시 실행, loops.S1 +1 |
-| 2 | screen-planner 호출 → gate_s2.py | S3 | S2 다시 실행, loops.S2 +1 |
+| 0 | `python3 harness/gates/check_rules_sync.py` | 1 | halted (design.md 변경) |
+| 1 | ref-researcher 호출 → `python3 harness/gates/gate_s1.py runs/{flow}` | S2 | S1 다시 실행, loops.S1 +1 |
+| 2 | screen-planner 호출 → `python3 harness/gates/gate_s2.py runs/{flow}` | S3 | S2 다시 실행, loops.S2 +1 |
 | 3 | keyscreen-designer 호출 → waiting_human | — | — |
 | 4 | human/approval.md 확인 | 승인 → S4 | 반려 → S2 |
 | 5 | ui-designer 호출 | S5 | — |
-| 6 | judge 호출 (gate_s5.py) | done | S4로 돌아감, loops.S5 +1 |
+| 6 | judge 호출 (`gate_s5.py runs/{flow} --out runs/{flow}/s5/report.json`) | done | S4로 돌아감, loops.S5 +1 |
 | 7 | 반복 횟수가 rules.json의 loop 한도에 도달 (S1: s1_max, S2: s2_max, S5→S4: s5_to_s4_max) | — | halted, 사람에게 넘김 |
 
 - uibowl MCP 인증이 풀렸거나 응답이 없으면 halted. 사유는 "uibowl MCP 인증 필요 (/mcp)"

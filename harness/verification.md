@@ -3,15 +3,17 @@
 > 게이트: harness/gates.md · 규칙: harness/rules.json
 
 ## 1. 판정 스크립트 검증 (하네스를 실제로 돌리기 전에 1회, 스크립트를 고칠 때마다)
-- 위치: harness/tests/fixtures/
-  - pass/: 모든 게이트를 통과하는 샘플 1세트
-  - fail/{게이트 ID}/: 그 규칙 하나만 어긴 샘플
+- 위치: harness/tests/
+  - fixtures/pass/finish-workout/: 모든 게이트를 통과하는 샘플 1세트
+  - run_fixtures.py의 MUTATIONS: 게이트 ID마다 pass 사본에서 그 규칙 하나만 어기게 바꾼 샘플 (24개)
 - 실행: `python3 harness/tests/run_fixtures.py`
+- 훅 검증: `python3 harness/tests/test_guard.py` (허용·차단 19건)
+- 마지막 결과: 판정 24/24 통과, ★ 누락 0 · 훅 19/19 통과
 - 통과 조건
   | 조건 | 기준 |
   |---|---|
   | pass 샘플 | exit 0, 위반 0건 |
-  | fail 샘플 | exit 1, 리포트에 해당 게이트 ID가 정확히 1개 |
+  | fail 샘플 | exit 1, 걸린 게이트 ID가 그 ID 하나뿐 |
   | 커버리지 | 게이트 ID 24개(G1 6, G2 6, G5 12)가 모두 최소 1번 걸림 |
   | ★ 커버리지 | G2-3, G2-4, G2-5, G2-6, G5-10, G5-11 중 빠진 것 0개 |
 
