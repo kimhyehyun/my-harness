@@ -109,6 +109,10 @@ ChriFit은 운동 기록 앱이다. 단일 다크 테마로, 거의 검은 배�
 - 그 밖의 화면: ← `Icon/chevron-left` 22 + 가운데 `title/group` 제목 + 오른쪽 22 여백
 - 시트: `Sheet Header` + 오른쪽 `Icon/x` 22 닫기
 
+### Splash 화면 구성
+
+[스플래시 화면 캡처](screens/Splash.png)를 기준으로 `bg` 배경 중앙에 `accent` 마스코트(`Mark/Mascot`)를 두고, 그 아래에 흰색(`ink`) ChriFit 워드마크를 배치한다. 다른 장식이나 조작 요소는 넣지 않는다.
+
 ### Today 화면 구성
 
 [오늘 화면 캡처](screens/main.png)를 홈 화면의 시각적 기준으로 삼는다.
