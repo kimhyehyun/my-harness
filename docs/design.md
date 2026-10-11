@@ -3,6 +3,7 @@
 > 출처: Figma `ChriFit Design System` (fileKey `EDcJ9a4nsLkEYJDmZPGi80`)
 > - 00 Foundations (`0:1`) · 01 Components (`6:2`) · 02 Screens (`6:3`) · 03 Harness (`35:2`)
 > - 값은 Figma 변수(Variables)와 텍스트 스타일에서 그대로 옮겼다. 숫자 규칙의 기계 판정용 사본은 `harness/rules.json`이다.
+> - 현재 메인의 시각 기준은 Figma `58:1070` 및 [main.png](screens/main.png)다. `22:145`는 초기 하네스 실행 때 사용한 네이티브 Today 화면이다.
 > - 이전 허들링 모노크롬 규칙은 `docs/design-huddling.md`에 보관한다.
 
 ## Overview
@@ -100,7 +101,7 @@ ChriFit은 운동 기록 앱이다. 단일 다크 테마로, 거의 검은 배�
 | 프레임 너비 | 390 (고정) |
 | 최소 높이 | 844. 내용이 길면 세로로 늘린다 |
 | 상단 헤더 | 높이 56 고정, 세로 가운데 정렬 |
-| 하단 탭 바 | `Tab Bar` 인스턴스, 높이 58, 화면 맨 아래 |
+| 하단 탭 바 | `Tab Bar` 인스턴스 58. 제출 캡처에서는 아래에 안전 영역 30을 둔다 |
 | 하단 액션 바 | `bg` 배경 + 상단 1px `line`, 탭 바 바로 위 |
 
 ### Header 규칙
@@ -115,12 +116,12 @@ ChriFit은 운동 기록 앱이다. 단일 다크 테마로, 거의 검은 배�
 
 ### Today 화면 구성
 
-[오늘 화면 캡처](screens/main.png)를 홈 화면의 시각적 기준으로 삼는다.
+[Figma 메인 `58:1070`](https://www.figma.com/design/EDcJ9a4nsLkEYJDmZPGi80/ChriFit-Design-System?node-id=58-1070)과 [오늘 화면 캡처](screens/main.png)를 홈 화면의 시각적 기준으로 삼는다.
 - 상단: 날짜·요일, 날씨 칩, 메뉴 아이콘
 - 선택 방식: `직접 고르기`와 `스마트 랜덤` 카드를 나란히 배치한다. 선택한 카드는 `accent` 테두리와 `alpha/accent-08` 배경으로 구분한다
 - 탐색: 검색 필드 아래에 즐겨찾기·부위·기구 필터를 하나의 `surface` 영역으로 묶는다
 - 목록: 운동 개수와 `내 운동` 제목 다음에 사진·이름·부위/기구·선택 표시·즐겨찾기 아이콘이 있는 행을 배치한다
-- 하단: `Tab Bar`의 `오늘`을 활성 상태로 표시한다
+- 하단: `Tab Bar`의 `오늘`을 활성 상태로 표시한다. 중앙은 테두리가 있는 40×40 얼굴형 마스코트 배지로 올리고, 그 아래에 `오늘` 라벨을 둔다. 비활성 탭은 `muted`, 활성 탭은 `accent`를 사용한다
 
 ## Shapes
 
@@ -153,7 +154,7 @@ ChriFit은 운동 기록 앱이다. 단일 다크 테마로, 거의 검은 배�
 | `Badge` | Type: Today · PT | |
 | `Field` | 아이콘 · 값 · 단위 | 숫자 입력 |
 | `Exercise Row` | Selected: False · True | 운동 목록 행, 썸네일 52 |
-| `Tab Bar` | Active: Today · Library · History | |
+| `Tab Bar` | Active: Today · Library · History | 중앙 40×40 얼굴형 마스코트 배지, 높이 58 |
 | `PT Toggle` | State: Off · On | |
 | `Record Card` | — | 기록 카드 |
 | `Sheet Header` | — | 시트 손잡이 + 제목 |
@@ -180,7 +181,7 @@ ChriFit은 운동 기록 앱이다. 단일 다크 테마로, 거의 검은 배�
 - 텍스트 스타일 없는 글자
 
 ## 하네스 적용 기록 (03 Harness)
-키스크린 `Today`(22:145) 1장을 기준으로 4개 화면을 만들었다.
+초기 하네스 실행에서는 네이티브 `Today`(22:145) 1장으로 4개 화면을 만들었다. 제출 시각 기준은 `03 Harness`의 메인(58:1070)이다. 사용자 피드백에 따라 `Tab Bar` 원본과 History·Workout Done의 하단 바 및 안전 영역을 수정했다.
 | 화면 | 노드 | 진입 |
 |---|---|---|
 | History | 37:22 | 탭 바 "기록" |

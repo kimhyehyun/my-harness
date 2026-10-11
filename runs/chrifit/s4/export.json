@@ -8,13 +8,13 @@
    "id": "37:22",
    "name": "History",
    "width": 390,
-   "height": 1071,
+   "height": 1101,
    "nodes": [
     {
      "id": "37:22",
      "name": "History",
      "type": "FRAME",
-     "height": 1071,
+     "height": 1101,
      "fills": [
       {
        "type": "SOLID",
@@ -2345,13 +2345,13 @@
    "id": "37:25",
    "name": "Workout Done",
    "width": 390,
-   "height": 874,
+   "height": 904,
    "nodes": [
     {
      "id": "37:25",
      "name": "Workout Done",
      "type": "FRAME",
-     "height": 874,
+     "height": 904,
      "fills": [
       {
        "type": "SOLID",

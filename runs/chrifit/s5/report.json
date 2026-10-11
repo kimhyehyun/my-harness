@@ -74,10 +74,29 @@
         "G5-8",
         "G5-9"
       ]
+    },
+    "script_round_3": {
+      "count": 0,
+      "result": "pass",
+      "note": "제출용 하단 바 및 안전 영역 보정 뒤 갱신한 s4/export.json으로 재검사"
     }
   },
   "result": "pass",
   "open_issues": [
     "Sheet Header 컴포넌트 원본(14:154) radius 20 — 01 Components에서 3xl로 수정 필요"
-  ]
+  ],
+  "submission_update": {
+    "visual_reference": "Figma 58:1070 (main.png, 전체 83개)",
+    "native_source_keyscreen": "Figma 22:145 (초기 S4 생성 기준, 전체 77개)",
+    "changed": [
+      "01 Components Tab Bar 중앙 마스코트 배지",
+      "History 및 Workout Done 하단 안전 영역 30px",
+      "두 화면 캡처 및 S4 export 높이"
+    ],
+    "automatic_gate_scope": "S4 네이티브 화면 4개. 메인 이미지와의 픽셀 일치 여부는 검사하지 않음",
+    "automatic_gate_recheck": {
+      "result": "pass",
+      "violations": 0
+    }
+  }
 }

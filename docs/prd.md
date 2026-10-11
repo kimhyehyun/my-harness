@@ -1,6 +1,7 @@
 # ChriFit PRD — 오늘 할 운동을 고르고, 체크하고, 기록하는 앱
 
-> 근거: Figma `ChriFit Design System` (02 Screens, 03 Harness) · [오늘 화면 캡처](screens/main.png) · 디자인 기준: docs/design.md
+> 근거: Figma `ChriFit Design System`의 현재 메인(`58:1070`) · [오늘 화면 캡처](screens/main.png) · 디자인 기준: docs/design.md
+> 초기 하네스 실행의 네이티브 Today(`22:145`, 전체 77개)는 과거 키스크린이며 현재 메인과 구분한다.
 > 이전 허들링 PRD는 docs/prd-huddling.md에 보관한다.
 > 근거는 두 가지다: (1) Figma 화면에 보이는 요소, (2) 내가 직접 정한 결정(개인용, 기기 저장, Apple Watch, 스마트 랜덤 규칙, 내 운동 만들기).
 > 정해지지 않은 항목은 §9 "확인 필요"에 모았다.
@@ -29,8 +30,8 @@
 ## 4. 화면 (MVP)
 | 화면 | Figma | 핵심 요소 |
 |---|---|---|
-| Splash | 22:126 · [Splash.png](screens/Splash.png) | `bg` 배경 중앙에 민트 마스코트와 흰색 ChriFit 워드마크 |
-| 오늘 (Today) | 22:145 · [main.png](screens/main.png) | 날짜·요일·날씨·메뉴, 직접 고르기/스마트 랜덤, 검색, 즐겨찾기·부위·기구 필터, 전체 83개·운동 행, 운동 선택 → 확인 |
+| Splash | 39:1028 · [Splash.png](screens/Splash.png) | `bg` 배경 중앙에 민트 마스코트와 흰색 ChriFit 워드마크 |
+| 오늘 (Today) | 58:1070 · [main.png](screens/main.png) | 날짜·요일·날씨·메뉴, 직접 고르기/스마트 랜덤, 검색, 즐겨찾기·부위·기구 필터, 전체 83개·운동 행, 운동 선택 → 확인 |
 | 운동 목록 (Library) | 28:169 | 검색, 필터, 내 운동 만들기 |
 | 오늘의 운동 (Session) | 28:317 | 진행률 n/m, 운동별 체크·설명 보기·빼기, 운동 추가, 시간·kcal, PT 받은 날, 마치기, 체크 전부 지우기 |
 | 기록 (History) | 37:22 | 월간 요약, 주간 달력, 날짜별 기록 카드 |
@@ -38,7 +39,7 @@
 | 운동 설명 | 37:24 | 이미지, 태그, 동작 단계, 포인트, 기본 세트·횟수, 오늘 운동에 담기 |
 | 운동 완료 | 37:25 | 시간·kcal·완료 수, 완료한 운동, PT 받은 날, 기록 보기 |
 
-하단 탭: 운동(Library) · 오늘(Today) · 기록(History)
+하단 탭: 운동(Library) · 오늘(Today) · 기록(History). 중앙 `오늘`은 얼굴형 마스코트 배지로 표시하고, 선택된 탭은 민트색으로 강조한다.
 
 ## 5. 주요 사용자 플로우
 | 플로우 ID | 이름 | 유저스토리 | 화면 |

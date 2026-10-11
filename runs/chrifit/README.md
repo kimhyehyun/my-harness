@@ -6,7 +6,9 @@
 ## S3 키스크린
 | 파일 | Figma 노드 |
 |---|---|
-| ![](s3/keyscreen-today.png) `s3/keyscreen-today.png` | Today `22:145` (02 Screens) |
+| ![](s3/keyscreen-today.png) `s3/keyscreen-today.png` | 현재 메인 `58:1070` (03 Harness, 전체 83개) |
+
+초기 S4 화면은 네이티브 Today `22:145`(당시 전체 77개)를 바탕으로 생성했다. 제출용 키스크린 캡처와 하단 바는 사용자가 지정한 현재 메인 `58:1070`에 맞춰 갱신했다.
 
 ## S4 화면 (키스크린 1장 → 4장)
 `s4/export.json`: harness/figma/export_s4.js로 뽑은 노드 값 (판정 입력)
@@ -21,6 +23,11 @@
 <p>
 <img src="s4/01-history.png" width="180"> <img src="s4/02-add-exercise-sheet.png" width="180"> <img src="s4/03-exercise-detail.png" width="180"> <img src="s4/04-workout-done.png" width="180">
 </p>
+
+## 제출용 시각 보정
+- `01 Components`의 `Tab Bar` 세 변형에 중앙 얼굴형 마스코트 배지를 반영했다.
+- History와 Workout Done 캡처의 하단 탭 바를 새로 내보내고 30px 하단 안전 영역을 적용했다.
+- 현재 메인(`58:1070`)은 캡처 이미지이므로 S5 구조 검사 대상 4개 화면과 구분한다.
 
 ## S5 검토
 `python3 harness/gates/gate_s5.py runs/chrifit` — 판정 스크립트 1회차 위반 49건(폭죽 선 채움 48, 시트 여백 120) → S4에서 수정 → 2회차 0건 통과.

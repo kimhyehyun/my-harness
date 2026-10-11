@@ -55,7 +55,7 @@ docs/prd-huddling.md, docs/design-huddling.md는 이전 버전 보관용이다. 
 
 ## 외부 도구
 - uibowl: 프로젝트 .mcp.json의 uibowl MCP를 쓴다. 인증이 풀리면 멈추고 `/mcp` 재인증을 요청한다. 우회하지 않는다.
-- Figma: fileKey는 rules.json에 둔다. 기준 키스크린은 02 Screens의 Today. 플로우 키스크린은 `{flow} · keyscreens`, 전체 화면은 `{flow}` 페이지에 그린다. 기존 페이지(00·01·02)와 원본 컴포넌트는 수정하지 않는다.
+- Figma: fileKey와 현재 시각 기준 메인(`58:1070`)은 rules.json에 둔다. 초기 실행에 사용한 네이티브 Today(`22:145`)는 컴포넌트 구조 참고용이다. 플로우 키스크린은 `{flow} · keyscreens`, 전체 화면은 `{flow}` 페이지에 그린다. 하네스 실행 중 기존 페이지(00·01·02)와 원본 컴포넌트는 수정하지 않는다. 이번 제출에서는 사용자 피드백으로 `01 Components`의 Tab Bar 원본을 별도로 보정했다.
 - Figma 판정 입력은 harness/figma/export_s4.js로 만든 s4/export.json이다.
 
 ## 규칙이 바뀌면

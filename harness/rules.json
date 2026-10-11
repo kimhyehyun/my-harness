@@ -3,13 +3,14 @@
   "figma": {
     "fileKey": "EDcJ9a4nsLkEYJDmZPGi80",
     "file": "ChriFit Design System",
-    "keyscreen": "22:145",
+    "keyscreen": "58:1070",
     "pages": {
       "foundations": "0:1",
       "components": "6:2",
       "screens": "6:3",
       "harness": "35:2"
-    }
+    },
+    "native_source_keyscreen": "22:145"
   },
   "frame": {
     "width": 390,

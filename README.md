@@ -5,8 +5,13 @@ ChriFit 운동 앱 화면을 Claude Code가 **규칙(게이트)을 지키며** �
 - 서비스 정의: [docs/prd.md](docs/prd.md) · 판정 기준: [docs/story-service.md](docs/story-service.md)
 - 디자인 규칙: [docs/design.md](docs/design.md) (Figma `ChriFit Design System`)
 - 하네스: [CLAUDE.md](CLAUDE.md)에서 시작 → [harness/](harness/)
-- 실행 기록: [runs/chrifit/](runs/chrifit/README.md) — 키스크린 Today 1장으로 화면 4개 생성
-- 화면 이미지(2x): [docs/screens/](docs/screens/) — [Today (main.png)](docs/screens/main.png), [Splash](docs/screens/Splash.png), History, Add Exercise Sheet, Exercise Detail, Workout Done
+- 실행 기록: [runs/chrifit/](runs/chrifit/README.md) — Today 키스크린 1장으로 화면 4개 생성, 제출용 메인 기준으로 하단 바 보정
+- 화면 이미지: [docs/screens/](docs/screens/) — [Today (main.png)](docs/screens/main.png), [Splash](docs/screens/Splash.png), History, Add Exercise Sheet, Exercise Detail, Workout Done
+
+## 제출 기준
+- [Figma 메인 `58:1070`](https://www.figma.com/design/EDcJ9a4nsLkEYJDmZPGi80/ChriFit-Design-System?node-id=58-1070)이 현재 시각 기준이다. [main.png](docs/screens/main.png)의 `전체 83개`와 하단 얼굴형 마스코트를 따른다.
+- Figma `22:145`는 시범 실행 때 사용한 네이티브 Today 화면이다. 당시 `전체 77개`가 표시되어 현재 메인과 구분한다.
+- [History](docs/screens/History.png)와 [Workout Done](docs/screens/Workout%20Done.png)의 하단 바 및 안전 영역을 현재 메인에 맞춰 수정했다. S5 자동 검사는 구조·토큰 규칙을 판정하며, 시각 비교는 캡처로 확인한다.
 
 ## 흐름
 S1 레퍼런스(uibowl MCP) → S2 화면 설계 → S3 키스크린 → **사람 컨펌** → S4 디자인(Figma) → S5 검토(읽기 전용 판정)
